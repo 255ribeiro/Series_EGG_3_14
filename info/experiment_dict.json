@@ -1,0 +1,98 @@
+{   "01":
+    {
+        "Experiment": 1,
+        "Type": "Baseline",
+        "Activity": "Eyes Open"
+    },
+
+    "02":
+    {
+        "Experiment": 2,
+        "Type": "Baseline",
+        "Activity": "Eyes Closed"
+    },
+
+    "03":
+    {
+        "Experiment": 3,
+        "Type": "Real",
+        "Activity": "Left Right"
+    },
+
+    "04":
+    {
+        "Experiment": 4,
+        "Type": "Imaginary",
+        "Activity": "Left Right"
+    },
+
+    "05":
+    {
+        "Experiment": 5,
+        "Type": "Real",
+        "Activity": "Top Down"
+    },
+
+    "06":
+    {
+        "Experiment": 6,
+        "Type": "Imaginary",
+        "Activity": "Top Down"
+    },
+
+    "07":
+    {
+        "Experiment": 7,
+        "Type": "Real",
+        "Activity": "Left Right"
+    },
+
+    "08":
+    {
+        "Experiment": 8,
+        "Type": "Imaginary",
+        "Activity": "Left Right"
+    },
+
+    "09":
+    {
+        "Experiment": 9,
+        "Type": "Real",
+        "Activity": "Top Down"
+    },
+
+    "10":
+    {
+        "Experiment": 10,
+        "Type": "Imaginary",
+        "Activity": "Top Down"
+    },
+
+    "11":
+    {
+        "Experiment": 11,
+        "Type": "Real",
+        "Activity": "Left Right"
+    },
+
+    "12":
+    {
+        "Experiment": 12,
+        "Type": "Imaginary",
+        "Activity": "Left Right"
+    },
+
+    "13":
+    {
+        "Experiment": 13,
+        "Type": "Real",
+        "Activity": "Top Down"
+    },
+
+    "14":
+    {
+        "Experiment": 14,
+        "Type": "Imaginary",
+        "Activity": "Top Down"
+    }
+}
