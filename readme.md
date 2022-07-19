@@ -41,6 +41,9 @@ Experiments
 
 (equidistant points in log scale)[https://dsp.stackexchange.com/questions/9709/equidistant-log-scale-points]
 
+
+(remove head and tail zeros)(https://stackoverflow.com/questions/52297315/remove-zero-value-head-and-tail-rows-from-dataframe)
+
    
 
 
