@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "series_egg_3_14"
+version = "0.1.0"
+description = ""
+authors = ["Fernando Ferraz Ribeiro"]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pandas = "^1.4.3"
+matplotlib = "^3.5.3"
+pyEDFlib = "^0.1.30"
+ipykernel = "^6.15.1"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"

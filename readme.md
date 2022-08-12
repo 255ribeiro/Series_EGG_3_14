@@ -1,5 +1,8 @@
 # Info
 
+- configurando o poetry para variáveis locais
+    poetry config virtualenvs.in-project true
+
 Informações sobre tratamento de dados de atividade cerebral
 
 ## Read .EDF 
