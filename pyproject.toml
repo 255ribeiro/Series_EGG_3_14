@@ -10,6 +10,9 @@ pandas = "^1.4.3"
 matplotlib = "^3.5.3"
 pyEDFlib = "^0.1.30"
 ipykernel = "^6.15.1"
+bs4 = "^0.0.1"
+requests = "^2.28.1"
+numpy = "^1.23.2"
 
 [tool.poetry.dev-dependencies]
 
