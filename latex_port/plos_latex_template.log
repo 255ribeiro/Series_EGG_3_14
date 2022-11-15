@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.8.10)  15 OCT 2022 11:12
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.8.10)  15 NOV 2022 18:26
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**"d:/gitrepos/Series_EGG_3_14/plos_latex_template_v3.6 - Atual/plos_latex_template.tex"
-(d:/gitrepos/Series_EGG_3_14/plos_latex_template_v3.6 - Atual/plos_latex_template.tex
+**d:/gitrepos/Series_EGG_3_14/latex_port/plos_latex_template.tex
+(d:/gitrepos/Series_EGG_3_14/latex_port/plos_latex_template.tex
 LaTeX2e <2022-06-01> patch level 5
 L3 programming layer <2022-08-05> (d:/Apps/Texlive/2022/texmf-dist/tex/latex/base/article.cls
 Document Class: article 2021/10/04 v1.4n Standard LaTeX document class
@@ -377,24 +377,24 @@ File: l3backend-pdftex.def 2022-08-05 L3 backend support: PDF output (pdfTeX)
 ) (./plos_latex_template.aux)
 \openout1 = `plos_latex_template.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 174.
-LaTeX Font Info:    ... okay on input line 174.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 174.
-LaTeX Font Info:    ... okay on input line 174.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 174.
-LaTeX Font Info:    ... okay on input line 174.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 174.
-LaTeX Font Info:    ... okay on input line 174.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 174.
-LaTeX Font Info:    ... okay on input line 174.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 174.
-LaTeX Font Info:    ... okay on input line 174.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 174.
-LaTeX Font Info:    ... okay on input line 174.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 174.
-LaTeX Font Info:    ... okay on input line 174.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 174.
-LaTeX Font Info:    ... okay on input line 174.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 175.
+LaTeX Font Info:    ... okay on input line 175.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 175.
+LaTeX Font Info:    ... okay on input line 175.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 175.
+LaTeX Font Info:    ... okay on input line 175.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 175.
+LaTeX Font Info:    ... okay on input line 175.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 175.
+LaTeX Font Info:    ... okay on input line 175.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 175.
+LaTeX Font Info:    ... okay on input line 175.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 175.
+LaTeX Font Info:    ... okay on input line 175.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 175.
+LaTeX Font Info:    ... okay on input line 175.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 175.
+LaTeX Font Info:    ... okay on input line 175.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -430,22 +430,22 @@ LaTeX Font Info:    ... okay on input line 174.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-Package hyperref Info: Link coloring OFF on input line 174.
+Package hyperref Info: Link coloring OFF on input line 175.
 (./plos_latex_template.out) (./plos_latex_template.out)
 \@outlinefile=\write3
 \openout3 = `plos_latex_template.out'.
 
-LaTeX Info: Redefining \microtypecontext on input line 174.
-Package microtype Info: Applying patch `item' on input line 174.
-Package microtype Info: Applying patch `toc' on input line 174.
-Package microtype Info: Applying patch `footnote' on input line 174.
+LaTeX Info: Redefining \microtypecontext on input line 175.
+Package microtype Info: Applying patch `item' on input line 175.
+Package microtype Info: Applying patch `toc' on input line 175.
+Package microtype Info: Applying patch `footnote' on input line 175.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
 Package microtype Info: Automatic font expansion enabled (level 2),
 (microtype)             stretch: 20, shrink: 20, step: 1, non-selected.
 Package microtype Info: Using default expansion set `alltext-nott'.
-LaTeX Info: Redefining \showhyphens on input line 174.
+LaTeX Info: Redefining \showhyphens on input line 175.
 Package microtype Info: No adjustment of tracking.
 Package microtype Info: No adjustment of interword spacing.
 Package microtype Info: No adjustment of character kerning.
@@ -469,25 +469,25 @@ Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
 Package lastpage Info: Please have a look at the pageslts package at
 (lastpage)             https://www.ctan.org/pkg/pageslts
-(lastpage)             ! on input line 174.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 180.
+(lastpage)             ! on input line 175.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 181.
  (d:/Apps/Texlive/2022/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 ) (d:/Apps/Texlive/2022/texmf-dist/tex/latex/microtype/mt-msa.cfg
 File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 180.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 181.
  (d:/Apps/Texlive/2022/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ) (d:/Apps/Texlive/2022/texmf-dist/tex/latex/microtype/mt-msb.cfg
 File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
 )
-LaTeX Font Info:    Trying to load font information for U+mvs on input line 185.
+LaTeX Font Info:    Trying to load font information for U+mvs on input line 186.
  (d:/Apps/Texlive/2022/texmf-dist/tex/latex/marvosym/umvs.fd) (d:/Apps/Texlive/2022/texmf-dist/tex/latex/microtype/mt-mvs.cfg
 File: mt-mvs.cfg 2006/07/05 v1.1 microtype config. file: Marvosym Euro (RS)
 )
 
-LaTeX Font Warning: Command \large invalid in math mode on input line 231.
+LaTeX Font Warning: Command \large invalid in math mode on input line 232.
 
 Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `cmss' (encoding: OT1).
@@ -499,17 +499,17 @@ Package microtype Info: Loading generic protrusion settings for font family
 <../output/figs/stats/S014.jpg, id=37, 1300.86pt x 650.43pt>
 File: ../output/figs/stats/S014.jpg Graphic file (type jpg)
 <use ../output/figs/stats/S014.jpg>
-Package pdftex.def Info: ../output/figs/stats/S014.jpg  used on input line 261.
+Package pdftex.def Info: ../output/figs/stats/S014.jpg  used on input line 262.
 (pdftex.def)             Requested size: 341.47342pt x 170.73546pt.
 <../output/figs/stats/S036.jpg, id=38, 1300.86pt x 650.43pt>
 File: ../output/figs/stats/S036.jpg Graphic file (type jpg)
 <use ../output/figs/stats/S036.jpg>
-Package pdftex.def Info: ../output/figs/stats/S036.jpg  used on input line 269.
+Package pdftex.def Info: ../output/figs/stats/S036.jpg  used on input line 270.
 (pdftex.def)             Requested size: 341.47342pt x 170.73546pt.
 <../output/figs/stats/S039.jpg, id=39, 1300.86pt x 650.43pt>
 File: ../output/figs/stats/S039.jpg Graphic file (type jpg)
 <use ../output/figs/stats/S039.jpg>
-Package pdftex.def Info: ../output/figs/stats/S039.jpg  used on input line 277.
+Package pdftex.def Info: ../output/figs/stats/S039.jpg  used on input line 279.
 (pdftex.def)             Requested size: 341.47342pt x 170.73546pt.
 
 
@@ -518,7 +518,7 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 <../output/figs/stats/S078.jpg, id=40, 1300.86pt x 650.43pt>
 File: ../output/figs/stats/S078.jpg Graphic file (type jpg)
 <use ../output/figs/stats/S078.jpg>
-Package pdftex.def Info: ../output/figs/stats/S078.jpg  used on input line 284.
+Package pdftex.def Info: ../output/figs/stats/S078.jpg  used on input line 286.
 (pdftex.def)             Requested size: 341.47342pt x 170.73546pt.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
@@ -526,7 +526,7 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 <../output/figs/stats/S099.jpg, id=41, 1300.86pt x 650.43pt>
 File: ../output/figs/stats/S099.jpg Graphic file (type jpg)
 <use ../output/figs/stats/S099.jpg>
-Package pdftex.def Info: ../output/figs/stats/S099.jpg  used on input line 291.
+Package pdftex.def Info: ../output/figs/stats/S099.jpg  used on input line 293.
 (pdftex.def)             Requested size: 341.47342pt x 170.73546pt.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
@@ -534,7 +534,7 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 <../output/figs/global/mean.jpg, id=42, 1300.86pt x 650.43pt>
 File: ../output/figs/global/mean.jpg Graphic file (type jpg)
 <use ../output/figs/global/mean.jpg>
-Package pdftex.def Info: ../output/figs/global/mean.jpg  used on input line 299.
+Package pdftex.def Info: ../output/figs/global/mean.jpg  used on input line 301.
 (pdftex.def)             Requested size: 341.47342pt x 170.73546pt.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
@@ -542,7 +542,7 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 <../output/figs/global/median.jpg, id=43, 1300.86pt x 650.43pt>
 File: ../output/figs/global/median.jpg Graphic file (type jpg)
 <use ../output/figs/global/median.jpg>
-Package pdftex.def Info: ../output/figs/global/median.jpg  used on input line 307.
+Package pdftex.def Info: ../output/figs/global/median.jpg  used on input line 309.
 (pdftex.def)             Requested size: 341.47342pt x 170.73546pt.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
@@ -550,7 +550,7 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 <../output/figs/global/std pop.jpg, id=44, 1300.86pt x 650.43pt>
 File: ../output/figs/global/std pop.jpg Graphic file (type jpg)
 <use ../output/figs/global/std pop.jpg>
-Package pdftex.def Info: ../output/figs/global/std pop.jpg  used on input line 315.
+Package pdftex.def Info: ../output/figs/global/std pop.jpg  used on input line 317.
 (pdftex.def)             Requested size: 341.47342pt x 170.73546pt.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
@@ -563,14 +563,14 @@ Package rerunfilecheck Info: File `plos_latex_template.out' has not changed.
  ) 
 Here is how much of TeX's memory you used:
  15005 strings out of 477678
- 240667 string characters out of 5830972
+ 240599 string characters out of 5830972
  590078 words of memory out of 5000000
  33485 multiletter control sequences out of 15000+600000
  477926 words of font info for 86 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 67i,14n,76p,1079b,565s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 67i,14n,76p,1055b,565s stack positions out of 10000i,1000n,20000p,200000b,200000s
 {d:/Apps/Texlive/2022/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}<d:/Apps/Texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb><d:/Apps/Texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><d:/Apps/Texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><d:/Apps/Texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><d:/Apps/Texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb><d:/Apps/Texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb><d:/Apps/Texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb><d:/Apps/Texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><d:/Apps/Texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><d:/Apps/Texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb><d:/Apps/Texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb><d:/Apps/Texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><d:/Apps/Texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb><d:/Apps/Texlive/2022/texmf-dist/fonts/type1/public/marvosym/marvosym.pfb><d:/Apps/Texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfrm0700.pfb><d:/Apps/Texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb>
-Output written on plos_latex_template.pdf (7 pages, 921975 bytes).
+Output written on plos_latex_template.pdf (7 pages, 933751 bytes).
 PDF statistics:
  190 PDF objects out of 1000 (max. 8388607)
  139 compressed objects within 2 object streams

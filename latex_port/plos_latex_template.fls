@@ -1,8 +1,8 @@
-PWD d:/gitrepos/Series_EGG_3_14/plos_latex_template_v3.6 - Atual
+PWD d:/gitrepos/Series_EGG_3_14/latex_port
 INPUT d:/Apps/Texlive/2022/texmf.cnf
 INPUT d:/Apps/Texlive/2022/texmf-dist/web2c/texmf.cnf
 INPUT d:/Apps/Texlive/2022/texmf-var/web2c/pdftex/pdflatex.fmt
-INPUT d:/gitrepos/Series_EGG_3_14/plos_latex_template_v3.6 - Atual/plos_latex_template.tex
+INPUT d:/gitrepos/Series_EGG_3_14/latex_port/plos_latex_template.tex
 OUTPUT plos_latex_template.log
 INPUT d:/Apps/Texlive/2022/texmf-dist/tex/latex/base/article.cls
 INPUT d:/Apps/Texlive/2022/texmf-dist/tex/latex/base/article.cls
