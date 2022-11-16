@@ -147,13 +147,12 @@
 
 % Header and Footer with logo
 \usepackage{lastpage,fancyhdr,graphicx}
-\usepackage{graphicx}
 \usepackage{epstopdf}
 %\pagestyle{myheadings}
 \pagestyle{fancy}
 \fancyhf{}
 %\setlength{\headheight}{27.023pt}
-%\lhead{\includegraphics[width=2.0in]{PLOS-submission.jpg}}
+%\lhead{\includegraphics[width=2.0in]{PLOS-submission.eps}}
 \rfoot{\thepage/\pageref{LastPage}}
 \renewcommand{\headrulewidth}{0pt}
 \renewcommand{\footrule}{\hrule height 2pt \vspace{2mm}}
@@ -165,9 +164,6 @@
 
 \newcommand{\lorem}{{\bf LOREM}}
 \newcommand{\ipsum}{{\bf IPSUM}}
-\newcommand{\dmc}{\(DMC_x^2\) }
-\newcommand{\pdcca}{\({\large \rho}_{DCCA}\)}
-
 
 %% END MACROS SECTION
 
@@ -178,27 +174,27 @@
 % Title must be 250 characters or less.
 \begin{flushleft}
 {\Large
-\textbf\newline{Multi-channel cross-correlation analyses of a electroencephalogram (EEG) experiment recordings using \dmc} % Please use "sentence case" for title and headings (capitalize only the first word in a title (or heading), the first word in a subtitle (or subheading), and any proper nouns).
+\textbf\newline{Title of submission to PLOS journals} % Please use "sentence case" for title and headings (capitalize only the first word in a title (or heading), the first word in a subtitle (or subheading), and any proper nouns).
 }
 \newline
 % Insert author names, affiliations and corresponding author email (do not include titles, positions, or degrees).
 \\
-Fernando Ferraz Ribeiro\textsuperscript{1,5\Yinyang},
-Andrea de Almeida Brito\textsuperscript{3\Yinyang},
-Florêncio Mendes Oliveira Filho\textsuperscript{5\textcurrency},
-Juan Alberto Leyva Cruz\textsuperscript{2},
-Gilney Figueira Zebende\textsuperscript{2}
+Name1 Surname\textsuperscript{1,2\Yinyang},
+Name2 Surname\textsuperscript{2\Yinyang},
+Name3 Surname\textsuperscript{2,3\textcurrency},
+Name4 Surname\textsuperscript{2},
+Name5 Surname\textsuperscript{2\ddag},
+Name6 Surname\textsuperscript{2\ddag},
+Name7 Surname\textsuperscript{1,2,3*},
+with the Lorem Ipsum Consortium\textsuperscript{\textpilcrow}
 \\
 \bigskip
-\textbf{1} Federal University of Bahia, Brazil
+\textbf{1} Affiliation Dept/Program/Center, Institution Name, City, State, Country
 \\
-\textbf{2} State University of Feira de Santana, Bahia, Brazil
+\textbf{2} Affiliation Dept/Program/Center, Institution Name, City, State, Country
 \\
-\textbf{3} Department of Mathematic, Federal Institute of Education, Science and Techinology , Salvador, Bahia, Brazil 
+\textbf{3} Affiliation Dept/Program/Center, Institution Name, City, State, Country
 \\
-\textbf{4} PPGM, State University of Feira de Santana, Bahia, Brazil
-\\
-\textbf{5} Computation Engeneering, SENAI CIMATEC University Center, Salvador, Bahia, Brazil
 \bigskip
 
 % Insert additional author notes using the symbols described below. Insert symbol callouts after author names as necessary.
@@ -229,14 +225,14 @@ Gilney Figueira Zebende\textsuperscript{2}
 \end{flushleft}
 % Please keep the abstract below 300 words
 \section*{Abstract}
-\pdcca Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur eget porta erat. Morbi consectetur est vel gravida pretium. Suspendisse ut dui eu ante cursus gravida non sed sem. Nullam sapien tellus, commodo id velit id, eleifend volutpat quam. Phasellus mauris velit, dapibus finibus elementum vel, pulvinar non tellus. Nunc pellentesque pretium diam, quis maximus dolor faucibus id. Nunc convallis sodales ante, ut ullamcorper est egestas vitae. Nam sit amet enim ultrices, ultrices elit pulvinar, volutpat risus.
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur eget porta erat. Morbi consectetur est vel gravida pretium. Suspendisse ut dui eu ante cursus gravida non sed sem. Nullam sapien tellus, commodo id velit id, eleifend volutpat quam. Phasellus mauris velit, dapibus finibus elementum vel, pulvinar non tellus. Nunc pellentesque pretium diam, quis maximus dolor faucibus id. Nunc convallis sodales ante, ut ullamcorper est egestas vitae. Nam sit amet enim ultrices, ultrices elit pulvinar, volutpat risus.
 
 
 % Please keep the Author Summary between 150 and 200 words
 % Use first person. PLOS ONE authors please skip this step. 
 % Author Summary not valid for PLOS ONE submissions.   
-% \section*{Author summary}
-% Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur eget porta erat. Morbi consectetur est vel gravida pretium. Suspendisse ut dui eu ante cursus gravida non sed sem. Nullam sapien tellus, commodo id velit id, eleifend volutpat quam. Phasellus mauris velit, dapibus finibus elementum vel, pulvinar non tellus. Nunc pellentesque pretium diam, quis maximus dolor faucibus id. Nunc convallis sodales ante, ut ullamcorper est egestas vitae. Nam sit amet enim ultrices, ultrices elit pulvinar, volutpat risus.
+\section*{Author summary}
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur eget porta erat. Morbi consectetur est vel gravida pretium. Suspendisse ut dui eu ante cursus gravida non sed sem. Nullam sapien tellus, commodo id velit id, eleifend volutpat quam. Phasellus mauris velit, dapibus finibus elementum vel, pulvinar non tellus. Nunc pellentesque pretium diam, quis maximus dolor faucibus id. Nunc convallis sodales ante, ut ullamcorper est egestas vitae. Nam sit amet enim ultrices, ultrices elit pulvinar, volutpat risus.
 
 \linenumbers
 
@@ -258,70 +254,12 @@ Nulla mi mi, Fig~\ref{fig1} venenatis sed ipsum varius, volutpat euismod diam. P
 % Place figure captions after the first paragraph in which they are cited.
 \begin{figure}[!h]
 \caption{{\bf Bold the figure title.}
-\includegraphics[width=.9\textwidth]{../output/figs/stats/S014.jpg}
 Figure caption text here, please use this space for the figure panel descriptions instead of using subfigure commands. A: Lorem ipsum dolor sit amet. B: Consectetur adipiscing elit.}
 \label{fig1}
 \end{figure}
 
-
-\begin{figure}[!h]
-  \caption{{\bf Bold the figure title.}
-  \includegraphics[width=.9\textwidth]{../output/figs/stats/S036.jpg}
-  Figure caption text here, please use this space for the figure panel descriptions instead of using subfigure commands. A: Lorem ipsum dolor sit amet. B: Consectetur adipiscing elit.}
-  \label{fig36}
-  \end{figure}
-  
-
-
-  \begin{figure}[!h]
-    \caption{{\bf Bold the figure title.}
-    \includegraphics[width=.9\textwidth]{../output/figs/stats/S039.jpg}
-    Figure caption text here, please use this space for the figure panel descriptions instead of using subfigure commands. A: Lorem ipsum dolor sit amet. B: Consectetur adipiscing elit.}
-    \label{fig39}
-    \end{figure}
-
-  \begin{figure}[!h]
-    \caption{{\bf Bold the figure title.}
-    \includegraphics[width=.9\textwidth]{../output/figs/stats/S078.jpg}
-      Figure caption text here, please use this space for the figure panel descriptions instead of using subfigure commands. A: Lorem ipsum dolor sit amet. B: Consectetur adipiscing elit.}
-    \label{fig78}
-    \end{figure}
-
-  \begin{figure}[!h]
-    \caption{{\bf Bold the figure title.}
-    \includegraphics[width=.9\textwidth]{../output/figs/stats/S099.jpg}
-      Figure caption text here, please use this space for the figure panel descriptions instead of using subfigure commands. A: Lorem ipsum dolor sit amet. B: Consectetur adipiscing elit.}
-    \label{fig99}
-    \end{figure}
-
-
-  \begin{figure}[!h]
-    \caption{{\bf Bold the figure title.}
-    \includegraphics[width=.9\textwidth]{../output/figs/global/mean.jpg}
-      Figure caption text here, please use this space for the figure panel descriptions instead of using subfigure commands. A: Lorem ipsum dolor sit amet. B: Consectetur adipiscing elit.}
-      \label{glob_mean}
-      \end{figure}
-
-
-  \begin{figure}[!h]
-    \caption{{\bf Bold the figure title.}
-    \includegraphics[width=.9\textwidth]{../output/figs/global/median.jpg}
-      Figure caption text here, please use this space for the figure panel descriptions instead of using subfigure commands. A: Lorem ipsum dolor sit amet. B: Consectetur adipiscing elit.}
-    \label{glob_median}
-    \end{figure}
-
-
-  \begin{figure}[!h]
-    \caption{{\bf Bold the figure title.}
-    \includegraphics[width=.9\textwidth]{../output/figs/global/std pop.jpg}
-    Figure caption text here, please use this space for the figure panel descriptions instead of using subfigure commands. A: Lorem ipsum dolor sit amet. B: Consectetur adipiscing elit.}
-    \label{glob_std_pop}
-    \end{figure}
-
-
 % Results and Discussion can be combined.
 \section*{Results}
-
 Nulla mi mi, venenatis sed ipsum varius, Table~\ref{table1} volutpat euismod diam. Proin rutrum vel massa non gravida. Quisque tempor sem et dignissim rutrum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi at justo vitae nulla elementum commodo eu id massa. In vitae diam ac augue semper tincidunt eu ut eros. Fusce fringilla erat porttitor lectus cursus, vel sagittis arcu lobortis. Aliquam in enim semper, aliquam massa id, cursus neque. Praesent faucibus semper libero.
 
 % Place tables after the first paragraph in which they are cited.
