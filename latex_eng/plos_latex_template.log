@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.8.10)  15 OCT 2022 11:12
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.8.10)  16 DEC 2022 22:19
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**"d:/gitrepos/Series_EGG_3_14/plos_latex_template_v3.6 - Atual/plos_latex_template.tex"
-(d:/gitrepos/Series_EGG_3_14/plos_latex_template_v3.6 - Atual/plos_latex_template.tex
+**d:/gitrepos/Series_EGG_3_14/latex_eng/plos_latex_template.tex
+(d:/gitrepos/Series_EGG_3_14/latex_eng/plos_latex_template.tex
 LaTeX2e <2022-06-01> patch level 5
 L3 programming layer <2022-08-05> (d:/Apps/Texlive/2022/texmf-dist/tex/latex/base/article.cls
 Document Class: article 2021/10/04 v1.4n Standard LaTeX document class
@@ -486,94 +486,95 @@ LaTeX Font Info:    Trying to load font information for U+mvs on input line 185.
  (d:/Apps/Texlive/2022/texmf-dist/tex/latex/marvosym/umvs.fd) (d:/Apps/Texlive/2022/texmf-dist/tex/latex/microtype/mt-mvs.cfg
 File: mt-mvs.cfg 2006/07/05 v1.1 microtype config. file: Marvosym Euro (RS)
 )
-
-LaTeX Font Warning: Command \large invalid in math mode on input line 231.
-
 Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `cmss' (encoding: OT1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
-[1
+ [1
 
 {d:/Apps/Texlive/2022/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-<../output/figs/stats/S014.jpg, id=37, 1300.86pt x 650.43pt>
+<../output/figs/stats/S014.jpg, id=28, 1300.86pt x 650.43pt>
 File: ../output/figs/stats/S014.jpg Graphic file (type jpg)
 <use ../output/figs/stats/S014.jpg>
-Package pdftex.def Info: ../output/figs/stats/S014.jpg  used on input line 261.
+Package pdftex.def Info: ../output/figs/stats/S014.jpg  used on input line 263.
 (pdftex.def)             Requested size: 341.47342pt x 170.73546pt.
-<../output/figs/stats/S036.jpg, id=38, 1300.86pt x 650.43pt>
+<../output/figs/stats/S036.jpg, id=29, 1300.86pt x 650.43pt>
 File: ../output/figs/stats/S036.jpg Graphic file (type jpg)
 <use ../output/figs/stats/S036.jpg>
-Package pdftex.def Info: ../output/figs/stats/S036.jpg  used on input line 269.
+Package pdftex.def Info: ../output/figs/stats/S036.jpg  used on input line 271.
 (pdftex.def)             Requested size: 341.47342pt x 170.73546pt.
-<../output/figs/stats/S039.jpg, id=39, 1300.86pt x 650.43pt>
+<../output/figs/stats/S039.jpg, id=30, 1300.86pt x 650.43pt>
 File: ../output/figs/stats/S039.jpg Graphic file (type jpg)
 <use ../output/figs/stats/S039.jpg>
-Package pdftex.def Info: ../output/figs/stats/S039.jpg  used on input line 277.
+Package pdftex.def Info: ../output/figs/stats/S039.jpg  used on input line 279.
 (pdftex.def)             Requested size: 341.47342pt x 170.73546pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<../output/figs/stats/S078.jpg, id=40, 1300.86pt x 650.43pt>
+<../output/figs/stats/S078.jpg, id=31, 1300.86pt x 650.43pt>
 File: ../output/figs/stats/S078.jpg Graphic file (type jpg)
 <use ../output/figs/stats/S078.jpg>
-Package pdftex.def Info: ../output/figs/stats/S078.jpg  used on input line 284.
+Package pdftex.def Info: ../output/figs/stats/S078.jpg  used on input line 286.
 (pdftex.def)             Requested size: 341.47342pt x 170.73546pt.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<../output/figs/stats/S099.jpg, id=41, 1300.86pt x 650.43pt>
+<../output/figs/stats/S099.jpg, id=32, 1300.86pt x 650.43pt>
 File: ../output/figs/stats/S099.jpg Graphic file (type jpg)
 <use ../output/figs/stats/S099.jpg>
-Package pdftex.def Info: ../output/figs/stats/S099.jpg  used on input line 291.
+Package pdftex.def Info: ../output/figs/stats/S099.jpg  used on input line 293.
 (pdftex.def)             Requested size: 341.47342pt x 170.73546pt.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<../output/figs/global/mean.jpg, id=42, 1300.86pt x 650.43pt>
+<../output/figs/global/mean.jpg, id=33, 1300.86pt x 650.43pt>
 File: ../output/figs/global/mean.jpg Graphic file (type jpg)
 <use ../output/figs/global/mean.jpg>
-Package pdftex.def Info: ../output/figs/global/mean.jpg  used on input line 299.
+Package pdftex.def Info: ../output/figs/global/mean.jpg  used on input line 301.
 (pdftex.def)             Requested size: 341.47342pt x 170.73546pt.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<../output/figs/global/median.jpg, id=43, 1300.86pt x 650.43pt>
+<../output/figs/global/median.jpg, id=34, 1300.86pt x 650.43pt>
 File: ../output/figs/global/median.jpg Graphic file (type jpg)
 <use ../output/figs/global/median.jpg>
-Package pdftex.def Info: ../output/figs/global/median.jpg  used on input line 307.
+Package pdftex.def Info: ../output/figs/global/median.jpg  used on input line 309.
 (pdftex.def)             Requested size: 341.47342pt x 170.73546pt.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<../output/figs/global/std pop.jpg, id=44, 1300.86pt x 650.43pt>
+<../output/figs/global/std pop.jpg, id=35, 1300.86pt x 650.43pt>
 File: ../output/figs/global/std pop.jpg Graphic file (type jpg)
 <use ../output/figs/global/std pop.jpg>
-Package pdftex.def Info: ../output/figs/global/std pop.jpg  used on input line 315.
+Package pdftex.def Info: ../output/figs/global/std pop.jpg  used on input line 317.
 (pdftex.def)             Requested size: 341.47342pt x 170.73546pt.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[2 <../output/figs/stats/S014.jpg> <../output/figs/stats/S036.jpg>] [3 <../output/figs/stats/S039.jpg> <../output/figs/stats/S078.jpg>] [4 <../output/figs/stats/S099.jpg> <../output/figs/global/mean.jpg>] [5 <../output/figs/global/median.jpg> <../output/figs/global/std pop.jpg>] [6] 
+[2 <../output/figs/stats/S014.jpg> <../output/figs/stats/S036.jpg>] [3 <../output/figs/stats/S039.jpg> <../output/figs/stats/S078.jpg>] [4 <../output/figs/stats/S099.jpg> <../output/figs/global/mean.jpg>] [5 <../output/figs/global/median.jpg> <../output/figs/global/std pop.jpg>] [6] (./plos_latex_template.bbl)
+
+LaTeX Warning: Empty `thebibliography' environment on input line 433.
+
+
 AED: lastpage setting LastPage
 [7] (./plos_latex_template.aux)
 Package rerunfilecheck Info: File `plos_latex_template.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 15005 strings out of 477678
- 240667 string characters out of 5830972
- 590078 words of memory out of 5000000
- 33485 multiletter control sequences out of 15000+600000
- 477926 words of font info for 86 fonts, out of 8000000 for 9000
+ 14999 strings out of 477678
+ 240591 string characters out of 5830972
+ 588997 words of memory out of 5000000
+ 33480 multiletter control sequences out of 15000+600000
+ 477261 words of font info for 84 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 67i,14n,76p,1079b,565s stack positions out of 10000i,1000n,20000p,200000b,200000s
-{d:/Apps/Texlive/2022/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}<d:/Apps/Texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb><d:/Apps/Texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><d:/Apps/Texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><d:/Apps/Texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><d:/Apps/Texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb><d:/Apps/Texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb><d:/Apps/Texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb><d:/Apps/Texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><d:/Apps/Texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><d:/Apps/Texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb><d:/Apps/Texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb><d:/Apps/Texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><d:/Apps/Texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb><d:/Apps/Texlive/2022/texmf-dist/fonts/type1/public/marvosym/marvosym.pfb><d:/Apps/Texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfrm0700.pfb><d:/Apps/Texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb>
-Output written on plos_latex_template.pdf (7 pages, 921975 bytes).
+ 67i,11n,76p,1054b,565s stack positions out of 10000i,1000n,20000p,200000b,200000s
+{d:/Apps/Texlive/2022/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}<d:/Apps/Texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb><d:/Apps/Texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><d:/Apps/Texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><d:/Apps/Texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb><d:/Apps/Texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb><d:/Apps/Texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><d:/Apps/Texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><d:/Apps/Texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb><d:/Apps/Texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb><d:/Apps/Texlive/2022/texmf-dist/fonts/type1/public/marvosym/marvosym.pfb><d:/Apps/Texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfrm0700.pfb><d:/Apps/Texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb>
+Output written on plos_latex_template.pdf (7 pages, 896812 bytes).
 PDF statistics:
- 190 PDF objects out of 1000 (max. 8388607)
- 139 compressed objects within 2 object streams
- 43 named destinations out of 1000 (max. 500000)
- 26665 words of extra memory for PDF output out of 29859 (max. 10000000)
+ 162 PDF objects out of 1000 (max. 8388607)
+ 119 compressed objects within 2 object streams
+ 41 named destinations out of 1000 (max. 500000)
+ 22569 words of extra memory for PDF output out of 24883 (max. 10000000)
 
