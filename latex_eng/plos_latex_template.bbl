@@ -6,4 +6,33 @@ Biasiucci A, Franceschiello B, Murray MM.
 \newblock Current Biology. 2019;29(3):R80--R85.
 \newblock doi:{10.1016/j.cub.2018.11.052}.
 
+\bibitem{Zebende2017}
+Zebende GF, Filho FMO, Cruz JAL.
+\newblock Auto-Correlation in the Motor/Imaginary Human {{EEG}} Signals: {{A}}
+  Vision about the {{FDFA}} Fluctuations.
+\newblock PLoS ONE. 2017;12(9):1--13.
+\newblock doi:{10.1371/journal.pone.0183121}.
+
+\bibitem{OliveiraFilho2019}
+Oliveira~Filho FM, Leyva~Cruz JA, Zebende GF.
+\newblock Analysis of the {{EEG}} Bio-Signals during the Reading Task by {{D F
+  A}} Method.
+\newblock Physica A: Statistical Mechanics and its Applications.
+  2019;525:664--671.
+\newblock doi:{10.1016/j.physa.2019.04.035}.
+
+\bibitem{Mesquita2019}
+Mesquita VB, Oliveira~Filho FM, Rodrigues PC.
+\newblock Detection of Crossover Points in Detrended Fluctuation Analysis: An
+  Application to {{EEG}} Signals of Patients with Epilepsy.
+\newblock Bioinformatics. 2021;37(9):1278--1284.
+\newblock doi:{10.1093/bioinformatics/btaa955}.
+
+\bibitem{OliveiraFilho2021}
+Filho FMO, Zebende GF, Guedes EF, Filho AMdS, de~Castro APN, Cruz JAL.
+\newblock Self-Regulation in Electroencephalographic Signals during an
+  Arithmetic Performance Test: An Approach with an Rms Fluctuation Function.
+\newblock International Journal of Health Science. 2021;1(9):2--12.
+\newblock doi:{10.22533/at.ed.15921091210}.
+
 \end{thebibliography}
