@@ -1,12 +1,12 @@
 # Fdb version 3
-["bibtex plos_latex_template"] 1671242861 "plos_latex_template.aux" "plos_latex_template.bbl" "plos_latex_template" 1671242935
-  "../bibtex/zotero_exp_22_12_16.bib" 1671242328 574438 8079148c1ba6994c974eac7e33754750 ""
+["bibtex plos_latex_template"] 1671250514 "plos_latex_template.aux" "plos_latex_template.bbl" "plos_latex_template" 1671250515
+  "../bibtex/zotero_exp_22_12_16.bib" 1671250511 567027 2bfef627cfab1c21b8272a2b04221b66 ""
   "./plos2015.bst" 1661525638 38071 b81f186f4b41cf496154afb7aeec3301 ""
-  "plos_latex_template.aux" 1671242934 7673 55be418897d6f885c2e01ae47712d358 "pdflatex"
+  "plos_latex_template.aux" 1671250278 7915 6adbf9b64f5e367c6dfcdcef69d26dae "pdflatex"
   (generated)
   "plos_latex_template.bbl"
   "plos_latex_template.blg"
-["pdflatex"] 1671242931 "d:/gitrepos/Series_EGG_3_14/latex_eng/plos_latex_template.tex" "plos_latex_template.pdf" "plos_latex_template" 1671242935
+["pdflatex"] 1671250271 "d:/gitrepos/Series_EGG_3_14/latex_eng/plos_latex_template.tex" "plos_latex_template.pdf" "plos_latex_template" 1671250515
   "../output/figs/global/mean.jpg" 1668608802 93810 ccf4ed3b02d49165b204194510d17e74 ""
   "../output/figs/global/median.jpg" 1668608803 94723 f0b9b516843dc635c5a642f51c2ead7e ""
   "../output/figs/global/std pop.jpg" 1668608806 86855 f490da23ca037e5af6814725ee469e34 ""
@@ -128,11 +128,11 @@
   "d:/Apps/Texlive/2022/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1660153591 4634956 047842224a617e2c701c13aca57ee044 ""
   "d:/Apps/Texlive/2022/texmf-var/web2c/pdftex/pdflatex.fmt" 1660153991 2873543 9ae2295dd2d4b9f35d79a5749ef69429 ""
   "d:/Apps/Texlive/2022/texmf.cnf" 1660152949 713 e69b156964470283e0530f5060668171 ""
-  "d:/gitrepos/Series_EGG_3_14/latex_eng/plos_latex_template.tex" 1671242930 21398 68406b72d8784de8ed27a20ea3f15742 ""
-  "plos_latex_template.aux" 1671242934 7673 55be418897d6f885c2e01ae47712d358 "pdflatex"
-  "plos_latex_template.bbl" 1671242861 1467 13d1117df0e2a6b2970e2eb88f728465 "bibtex plos_latex_template"
+  "d:/gitrepos/Series_EGG_3_14/latex_eng/plos_latex_template.tex" 1671250300 21613 143d5e69ae8958514960ee8f2586fabc ""
+  "plos_latex_template.aux" 1671250278 7915 6adbf9b64f5e367c6dfcdcef69d26dae "pdflatex"
+  "plos_latex_template.bbl" 1671250515 2759 a9197f0f89d26375e8fd5ac430bd496e "bibtex plos_latex_template"
   "plos_latex_template.out" 0 -1 0 "pdflatex"
-  "plos_latex_template.tex" 1671242930 21398 68406b72d8784de8ed27a20ea3f15742 ""
+  "plos_latex_template.tex" 1671250300 21613 143d5e69ae8958514960ee8f2586fabc ""
   (generated)
   "plos_latex_template.aux"
   "plos_latex_template.log"

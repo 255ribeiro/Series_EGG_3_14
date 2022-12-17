@@ -165,7 +165,8 @@
 \newcommand{\lorem}{{\bf LOREM}}
 \newcommand{\ipsum}{{\bf IPSUM}}
 \newcommand{\dmc}{\(DMC_x^2\) }
-\newcommand{\pdcca}{\({\large \rho}_{DCCA}\)}
+\newcommand{\pdcca}{\({\large \rho}_{DCCA}\) }
+\newcommand{\fdfa}{\(F_{DFA}\) }
 
 
 %% END MACROS SECTION
@@ -243,18 +244,21 @@ don't match that pattern is still an open question.
 
 The electroencephalogram (EEG) is, in short, a technic that reads electrical signals from the brain activity with the use of sensors placed in the scalp of the patient and makes sense of this data. impulses are usually recorded over time, encrypted in an European Data Format (EDF) file. The EEG equipment  mesures the electric potential difference from each sensor position in relation with a reference sensor, usually placed in the ear lobe. Although the EEG is almost a centenary technic, in recent decades EEG has addressed new problems as brain-triggered neurorehabilitation treatments, experimental psychology or even computational neuroscience, due to it's versatility and accessibility combined with the advances in signal processing~\cite{Biasiucci2019}.
 
-% \begin{eqnarray}
-% \label{eq:schemeP}
-% 	\mathrm{P_Y} = \underbrace{H(Y_n) - H(Y_n|\mathbf{V}^{Y}_{n})}_{S_Y} + \underbrace{H(Y_n|\mathbf{V}^{Y}_{n})- H(Y_n|\mathbf{V}^{X,Y}_{n})}_{T_{X\rightarrow Y}},
-% \end{eqnarray}
-
-This papers uses the \dmc to evaluate the cross-correlation \cite{Zebende2017}  \cite{OliveiraFilho2019} \cite{Mesquita2019} \cite{OliveiraFilho2021}
+The \fdfa root mean square (rms) fluctuation function was already used to analyze a subset of the same dataset used here to evaluate \cite{Zebende2017}  \cite{Mesquita2019} \cite{OliveiraFilho2019} \cite{OliveiraFilho2021}
 
 \section*{Materials and methods}
 \subsection*{The data set}
 
 
 \subsection*{Methodology}
+
+\cite{Peng1994, Buldyrev1950}, \cite{Podobnik2008}, \cite{Zebende2011}, \cite{PhysRevE.84.066118}, 
+
+
+% \begin{eqnarray}
+% \label{eq:schemeP}
+% 	\mathrm{P_Y} = \underbrace{H(Y_n) - H(Y_n|\mathbf{V}^{Y}_{n})}_{S_Y} + \underbrace{H(Y_n|\mathbf{V}^{Y}_{n})- H(Y_n|\mathbf{V}^{X,Y}_{n})}_{T_{X\rightarrow Y}},
+% \end{eqnarray}
 
 
 % Results and Discussion can be combined.
@@ -428,6 +432,7 @@ Cras egestas velit mauris, eu mollis turpis pellentesque sit amet. Interdum et m
 
 
 \bibliography{../bibtex/zotero_exp_22_12_16.bib}
+
 
 \end{document}
 

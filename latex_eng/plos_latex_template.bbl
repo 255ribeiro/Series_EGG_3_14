@@ -1,4 +1,4 @@
-\begin{thebibliography}{1}
+\begin{thebibliography}{10}
 
 \bibitem{Biasiucci2019}
 Biasiucci A, Franceschiello B, Murray MM.
@@ -13,6 +13,13 @@ Zebende GF, Filho FMO, Cruz JAL.
 \newblock PLoS ONE. 2017;12(9):1--13.
 \newblock doi:{10.1371/journal.pone.0183121}.
 
+\bibitem{Mesquita2019}
+Mesquita VB, Oliveira~Filho FM, Rodrigues PC.
+\newblock Detection of Crossover Points in Detrended Fluctuation Analysis: An
+  Application to {{EEG}} Signals of Patients with Epilepsy.
+\newblock Bioinformatics. 2021;37(9):1278--1284.
+\newblock doi:{10.1093/bioinformatics/btaa955}.
+
 \bibitem{OliveiraFilho2019}
 Oliveira~Filho FM, Leyva~Cruz JA, Zebende GF.
 \newblock Analysis of the {{EEG}} Bio-Signals during the Reading Task by {{D F
@@ -21,18 +28,45 @@ Oliveira~Filho FM, Leyva~Cruz JA, Zebende GF.
   2019;525:664--671.
 \newblock doi:{10.1016/j.physa.2019.04.035}.
 
-\bibitem{Mesquita2019}
-Mesquita VB, Oliveira~Filho FM, Rodrigues PC.
-\newblock Detection of Crossover Points in Detrended Fluctuation Analysis: An
-  Application to {{EEG}} Signals of Patients with Epilepsy.
-\newblock Bioinformatics. 2021;37(9):1278--1284.
-\newblock doi:{10.1093/bioinformatics/btaa955}.
-
 \bibitem{OliveiraFilho2021}
 Filho FMO, Zebende GF, Guedes EF, Filho AMdS, de~Castro APN, Cruz JAL.
 \newblock Self-Regulation in Electroencephalographic Signals during an
   Arithmetic Performance Test: An Approach with an Rms Fluctuation Function.
 \newblock International Journal of Health Science. 2021;1(9):2--12.
 \newblock doi:{10.22533/at.ed.15921091210}.
+
+\bibitem{Peng1994}
+Peng CK, Buldyrev SV, Havlin S, Simons M, Stanley HE, Goldberger AL.
+\newblock Mosaic Organization of {{DNA}} Nucleotides.
+\newblock Physical Review E. 1994;49(2):1685--1689.
+\newblock doi:{10.1103/PhysRevE.49.1685}.
+
+\bibitem{Buldyrev1950}
+Buldyrev SV, Goldberger AL, Havlin S, Mantegna RN, Matsa ME, Peng CK, et~al.
+\newblock Long-Range Correlation Properties of Coding and Noncoding {{DNA}}
+  Sequences: {{GenBank}} Analysis.
+\newblock Physical Review E. 1995;51(5):5084--5091.
+\newblock doi:{10.1103/PhysRevE.51.5084}.
+
+\bibitem{Podobnik2008}
+Podobnik B, Stanley HE.
+\newblock Detrended Cross-Correlation Analysis: {{A}} New Method for Analyzing
+  Two Nonstationary Time Series.
+\newblock Physical Review Letters. 2008;100(8).
+\newblock doi:{10.1103/PhysRevLett.100.084102}.
+
+\bibitem{Zebende2011}
+Zebende GF.
+\newblock {{DCCA}} Cross-Correlation Coefficient: {{Quantifying}} Level of
+  Cross-Correlation.
+\newblock Physica A: Statistical Mechanics and its Applications.
+  2011;390(4):614--618.
+\newblock doi:{10.1016/j.physa.2010.10.022}.
+
+\bibitem{PhysRevE.84.066118}
+Podobnik B, Jiang ZQ, Zhou WX, Stanley HE.
+\newblock Statistical Tests for Power-Law Cross-Correlated Processes.
+\newblock Phys Rev E. 2011;84(6):66118.
+\newblock doi:{10.1103/PhysRevE.84.066118}.
 
 \end{thebibliography}
