@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.8.10)  17 DEC 2022 01:11
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.8.10)  3 MAR 2023 20:40
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -552,25 +552,25 @@ Package pdftex.def Info: ../output/figs/global/std pop.jpg  used on input line 3
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[2 <../output/figs/stats/S014.jpg> <../output/figs/stats/S036.jpg>] [3 <../output/figs/stats/S039.jpg> <../output/figs/stats/S078.jpg>] [4 <../output/figs/stats/S099.jpg> <../output/figs/global/mean.jpg>] [5 <../output/figs/global/median.jpg> <../output/figs/global/std pop.jpg>] [6] (./plos_latex_template.bbl) 
+[2 <../output/figs/stats/S014.jpg> <../output/figs/stats/S036.jpg>] [3 <../output/figs/stats/S039.jpg> <../output/figs/stats/S078.jpg>] [4 <../output/figs/stats/S099.jpg> <../output/figs/global/mean.jpg>] [5 <../output/figs/global/median.jpg> <../output/figs/global/std pop.jpg>] [6] (./plos_latex_template.bbl [7]) 
 AED: lastpage setting LastPage
-[7] (./plos_latex_template.aux)
+[8] (./plos_latex_template.aux)
 Package rerunfilecheck Info: File `plos_latex_template.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 15018 strings out of 477678
- 240894 string characters out of 5830972
- 590329 words of memory out of 5000000
+ 15025 strings out of 477678
+ 240974 string characters out of 5830972
+ 592328 words of memory out of 5000000
  33490 multiletter control sequences out of 15000+600000
  477261 words of font info for 84 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 67i,11n,76p,1054b,540s stack positions out of 10000i,1000n,20000p,200000b,200000s
-{d:/Apps/Texlive/2022/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}<d:/Apps/Texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb><d:/Apps/Texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><d:/Apps/Texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><d:/Apps/Texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb><d:/Apps/Texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb><d:/Apps/Texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><d:/Apps/Texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><d:/Apps/Texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb><d:/Apps/Texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb><d:/Apps/Texlive/2022/texmf-dist/fonts/type1/public/marvosym/marvosym.pfb><d:/Apps/Texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfrm0700.pfb><d:/Apps/Texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb>
-Output written on plos_latex_template.pdf (7 pages, 901437 bytes).
+ 67i,11n,76p,1054b,596s stack positions out of 10000i,1000n,20000p,200000b,200000s
+{d:/Apps/Texlive/2022/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}<d:/Apps/Texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb><d:/Apps/Texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><d:/Apps/Texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><d:/Apps/Texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><d:/Apps/Texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb><d:/Apps/Texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb><d:/Apps/Texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb><d:/Apps/Texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><d:/Apps/Texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><d:/Apps/Texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb><d:/Apps/Texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb><d:/Apps/Texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb><d:/Apps/Texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><d:/Apps/Texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb><d:/Apps/Texlive/2022/texmf-dist/fonts/type1/public/marvosym/marvosym.pfb><d:/Apps/Texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfrm0700.pfb><d:/Apps/Texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb>
+Output written on plos_latex_template.pdf (8 pages, 950292 bytes).
 PDF statistics:
- 182 PDF objects out of 1000 (max. 8388607)
- 139 compressed objects within 2 object streams
- 50 named destinations out of 1000 (max. 500000)
+ 219 PDF objects out of 1000 (max. 8388607)
+ 165 compressed objects within 2 object streams
+ 57 named destinations out of 1000 (max. 500000)
  22569 words of extra memory for PDF output out of 24883 (max. 10000000)
 
