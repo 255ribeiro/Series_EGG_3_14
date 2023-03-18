@@ -229,7 +229,7 @@ Gilney Figueira Zebende\textsuperscript{2}
 \end{flushleft}
 % Please keep the abstract below 300 words
 \section*{Abstract}
-This paper presents an investigation of a motor/imaginary experiment electroencephalogram (EEG) 64-channels recordings, available on the Physionet on-line databank, using the detrended multiple cross-correlation coefficient (\dmc). Analysing data from 4 channels, \(F_{3}32\), \(F_{6}37\) (frontal region of the head) and \(P_{3}49\), \(P_{6}54\) (parietal region of the head), the \dmc was used to evaluate the correlation among one of the channels with the three others alternately. Using all the motor/imaginary experiments and 108 of the 109 subjects, our analysis points to a pattern, detected on most of the subjects, where the correlation of the channel \(F_{3}32\) against the others presents the higher correlation coefficient compared to the other combinations. The reason why some persons
+This paper presents an investigation of a motor/imaginary experiment electroencephalogram (EEG) 64-channels recordings, available on the Physionet on-line databank, using the detrended multiple cross-correlation coefficient (\dmc). Analyzing data from 4 channels, \(F_{3}32\), \(F_{6}37\) (frontal region of the head) and \(P_{3}49\), \(P_{6}54\) (parietal region of the head), the \dmc was used to evaluate the correlation among one of the channels with the three others alternately. Using all the motor/imaginary experiments and 108 of the 109 subjects, our analysis points to a pattern, detected on most of the subjects, where the correlation of the channel \(F_{3}32\) against the others presents the higher correlation coefficient compared to the other combinations. The reason why some persons
 don't match that pattern is still an open question.
 
 % Please keep the Author Summary between 150 and 200 words
@@ -242,15 +242,92 @@ don't match that pattern is still an open question.
 % Use "Eq" instead of "Equation" for equation citations.
 \section*{Introduction}
 
-The electroencephalogram (EEG) is, in short, a technic that reads electrical signals from the brain activity with the use of sensors placed in the scalp of the patient and makes sense of this data. impulses are usually recorded over time, encrypted in an European Data Format (EDF) file. The EEG equipment  mesures the electric potential difference from each sensor position in relation with a reference sensor, usually placed in the ear lobe. Although the EEG is almost a centenary technic, in recent decades EEG has addressed new problems as brain-triggered neurorehabilitation treatments, experimental psychology or even computational neuroscience, due to it's versatility and accessibility combined with the advances in signal processing~\cite{Biasiucci2019}.
+The electroencephalogram (EEG) is, in short, a technic that reads electrical signals from the brain activity with the use of sensors placed in the scalp of the patient and makes sense of this data. Impulses are amplified and recorded over time in parallel, one time serie for each sensor. The EEG equipment  mesures the electric potential difference from each sensor position in relation with a reference sensor, usually placed in the ear lobe. Although the EEG is almost a centenary technic, in recent decades EEG has addressed new problems as brain-triggered neurorehabilitation treatments, experimental psychology or even computational neuroscience, due to it's versatility and accessibility combined with the advances in signal processing~\cite{Biasiucci2019}.
 
-The \fdfa root mean square (rms) fluctuation function was already used to analyze a subset of the same dataset used here to evaluate \cite{Zebende2017}  \cite{Mesquita2019} \cite{OliveiraFilho2019} \cite{OliveiraFilho2021}
+\begin{figure}[!h]
+  \caption{{\bf Bold the figure title.}
+  \includegraphics[width=.9\textwidth]{../fig_cabeca/FIG_CABECA.png}
+  Figure caption text here, please use this space for the figure panel descriptions instead of using subfigure commands. A: Lorem ipsum dolor sit amet. B: Consectetur adipiscing elit.}
+  \label{fig:cabeca}
+  \end{figure}
+
+
+The recordings used are available at the Physionet on-line databank (\url{https:// physionet.org/pn4/eegmmidb/}). The data is originated from a study that perform 14 experiments on a population of 109 subjects, Using 64 electrodes to record the brain signals. The first 2 experiments are baseline references, the subjects where resting with eyes opened end the second with eyes closed (one minute for each). The other four experiments are a combination of two categories with two possible options each \(2 \times 2\ = 4\). In general, the experiments consist of making the subjects react over visual stimulus: a target that appears on a screen. One category is about the target position, one option is a target that will aperar on the left or the right of the screen, in the other,the target will appear on the top or on the bottom of the screen. The second category determines if the subject will actually execute a body action related to the target position (Real) or if the corresponding action will be just imagined (Imaginary) by the subject. The tasks, with duration of two minutes, are described below:
+
+\begin{itemize}
+  \item \bf{Task 1}: a target appears on either the left or the right side of the screen. The subject opens and closes the corresponding fist until the target disappears. Then the subject relaxes. (Real (L/R));
+  \item \bf{Task 2}: a target appears on either the left or the right side of the screen. The subject \bf{imagines} opening and closing the corresponding fist until the target disappears. Then the subject relaxes. (Imag (L/R));
+  \item \bf{Task 3}: a target appears on either the top or the bottom of the screen. The subject opens and closes either both fists (if the target is on top) or both feet (if the target is on the bottom) until the target disappears. Then the subject relaxes. (Real (T/D));
+  \item \bf{Task 4}: a target appears on either the top or the bottom of the screen. The subject \bf{imagines} opening and closing either both fists (if the target is on top) or both feet (if the target is on the bottom) until the target disappears. Then the subject relaxes. (Imag (T/D)).
+\end{itemize}
+
+Table \ref{table1} presents witch Task is carried in each experiment number. Every subject executes the four tasks three times. Experiments 3, 7 and 11 applies Task 1 to the subjects, experiments 4, 8 and 12, Task 2, experiments 5, 9 and 13, Task 3 and experiments 6, 10 e 14 uses Task 4.
+
+% Place tables after the first paragraph in which they are cited.
+\begin{table}[!ht]
+  %\begin{adjustwidth}{-2.25in}{0in} % Comment out/remove adjustwidth environment if table fits in text column.
+  \centering
+  \caption{
+  {\bf Experiment x task relation}}
+
+    \begin{tabular}{|l|l|l|l|l|l|l|l|l|l|l|l|l|l|l|}
+    \hline
+    Experiment n º & 1 & 2 & 3 & 4 & 5 & 6 & 7 & 8 & 9 & 10 & 11 & 12 & 13 & 14 \\ \thickhline
+    Baseline 1     & x &   &   &   &   &   &   &   &   &    &    &    &    &    \\ \hline
+    Baseline 2     &   & x &   &   &   &   &   &   &   &    &    &    &    &    \\ \hline
+    Task 1         &   &   & x &   &   &   & x &   &   &    & x  &    &    &    \\ \hline
+    Task 2         &   &   &   & x &   &   &   & x &   &    &    & x  &    &    \\ \hline
+    Task 3         &   &   &   &   & x &   &   &   & x &    &    &    & x  &    \\ \hline
+    Task 4         &   &   &   &   &   & x &   &   &   & x  &    &    &    & x  \\ \hline
+    \end{tabular}
+
+  \begin{flushleft} The experiment and the executed tasks: Two one-minute baseline (eyes open/closed) and three two-minute of four Tasks.
+  \end{flushleft}
+  \label{table1}
+  %\end{adjustwidth}
+  \end{table}
+
+To analise the dataset, this study uses the Detrended Multiple Cross-Correlation Coefficient (\dmc) \cite{Zebende2018}. This coefficient, based on the \pdcca \cite{Zebende2011}, determinates the correlation between one time serie (as the dependent variable) and a number \(n\) of time series (as independent variables).
+
+For channels where selected to be analyzed, \(F_{3}32\), \(F_{6}37\) (frontal region of the head) and \(P_{3}49\), \(P_{6}54\) (parietal region of the head). The four channels are alternately picked as dependent variable and the correlation against the other three are calculated.
+
+In the next sections we will present the dataset, the methodology used to analyze the data, the results encountered by the application of our methodology, the discussion of the results and the conclusion.
 
 \section*{Materials and methods}
-\subsection*{The data set}
+
+The Physionet on-line databank is publicly available at \url{https:// physionet.org/pn4/eegmmidb/}, presents recordings of the described EEG experiments. The data is stored in EDF (European data format) files. The files of all the experiments for every subject where downloaded using a web scraping script created by the authors using Python and the package Beautiful Soap.
+
+The EDF files where opened using Python package pyedflib and reorganized . In EEG experiments, usually the end of the recordings is filled with a sequence of zeroes, corresponding to the time gap between the shooting down of the EEG machine and the recording system. In this pre-processing stage, all the tailing zeroes sequences are eliminated from the records. To properly apply the \dmc calculations and the intended comparisons between experiments end subjects, all the time series must have the same length. The research find out the the	experiment number 5	(Top/Down, Real) conducted with subject S106 has only 5808 valid recorded points. The second smallest time series has 15742 valid records (subject: S100, experiment: 12	-Left/Right,	Imaginary).
+
+The interval between each recorded value in this equipment is 6.25 ms, and the recordings on experiment 5 of subject S106 is 36.3 s. The duration is way smaller then the expected 2 minutes and the series is relatively small to the application os the \dmc method. Cutting all the subjects data to this duration implies in a great loss of data. The second smaller series of 15742 represents a total duration of 98.3875 s. The value was considered adequate to the \dmc method and the duration is about 82\% of the expected duration. The decision was to eliminate subject S106 from the experiment and to cut all time series at recording point 15742. resulting in a total number of 108 subjects with all 12 experiments per subject lasting 98.3875 s.
+
+The \(DCCA\) aims to identify the existence of a correlations among two time series, and is very similar to the \(DFA\) algorithm: the steps 1, 2 and 3 are calculated for two timeseries \(x_{1i}\) and \(x_{2i}\), generating the integrated series \(X_{1k}\) and \(X_{2k}\) in the first steps and the detrended series \(\widetilde{X}_{1k, i}\) and \(\widetilde{X}_{2k, i}\) in the third step.
 
 
-\subsection*{Methodology}
+
+
+\begin{equation} \label{eq:fdcca}
+  f_{DCCA}^{2}(n, i) = \frac{1}{1+n} \sum_{k=i}^{i + n} (X_{1k}-\widetilde{X}_{1k, i}) (X_{2k}-\widetilde{X}_{2k, i})
+\end{equation}
+
+
+\begin{equation}\label{eq:dmc_4x_y} 
+  \begin{split}
+DMC_{x}^{2} \quad = \quad & ( \rho^{2}_{X_{2},X_{3}} \times \rho^{2}_{Y,X_{1}}- \rho^{2}_{Y,X_{1}} + \rho^{2}_{X_{1},X_{3}}\times \rho^{2}_{Y,X_{2}}-\rho^{2}_{Y,X_{2}}+ \\
+& 2 \times \rho_{X_{1},X_{2}} \times \rho_{Y,X_{1}} \times \rho_{Y,X_{2}}   - 2 \times \rho_{X_{1},X_{3}} \times \rho_{X_{2},X_{3}} \times \rho_{Y,X_{1}} + \\
+& \rho^{2}_{X_{1},X_{2}} \times \rho^{2}_{Y,X_{3}}-\rho^{2}_{Y,X_{3}} + 2 \times \rho_{X_{1},X_{3}} \times \rho_{Y,X_{1}} \times \rho_{Y,X_{3}} - \\ 
+& 2 \times \rho_{X_{1},X_{2}} \times \rho_{X_{2},X_{3}} \times \rho_{Y,X_{1}} \times \rho_{Y,X_{3}} - \\
+& 2 \times \rho_{X_{1},X_{2}} \times \rho_{X_{1},X_{3}} \times \rho_{Y,X_{2}} \times \rho_{Y,X_{3}} + \\
+& 2 \times \rho_{X_{2},X_{3}} \times \rho_{Y,X_{2}} \times \rho_{Y,X_{3}} ) \quad / \\
+& ( \rho^{2}_{X_{1},X_{2}} + \rho^{2}_{X_{1},X_{3}} + \rho^{2}_{X_{2},X_{3}} - 2 \times \rho_{X_{1},X_{2}} \times \rho_{X_{1},X_{3}} \times \rho_{X_{2},X_{3}}^{-1}) \\
+ \end{split}
+\end{equation}
+
+
+
+
+The \fdfa root mean square (rms) fluctuation function was already used to analyze a subset of the same dataset used here to evaluate   \cite{Mesquita2019} \cite{OliveiraFilho2019} \cite{OliveiraFilho2021}
+
 
 \cite{Peng1994, Buldyrev1950}, \cite{Podobnik2008}, \cite{Zebende2011}, \cite{PhysRevE.84.066118}, 
 
@@ -333,24 +410,7 @@ Figure caption text here, please use this space for the figure panel description
 
 Nulla mi mi, venenatis sed ipsum varius, Table~\ref{table1} volutpat euismod diam. Proin rutrum vel massa non gravida. Quisque tempor sem et dignissim rutrum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi at justo vitae nulla elementum commodo eu id massa. In vitae diam ac augue semper tincidunt eu ut eros. Fusce fringilla erat porttitor lectus cursus, vel sagittis arcu lobortis. Aliquam in enim semper, aliquam massa id, cursus neque. Praesent faucibus semper libero.
 
-% Place tables after the first paragraph in which they are cited.
-\begin{table}[!ht]
-\begin{adjustwidth}{-2.25in}{0in} % Comment out/remove adjustwidth environment if table fits in text column.
-\centering
-\caption{
-{\bf Table caption Nulla mi mi, venenatis sed ipsum varius, volutpat euismod diam.}}
-\begin{tabular}{|l+l|l|l|l|l|l|l|}
-\hline
-\multicolumn{4}{|l|}{\bf Heading1} & \multicolumn{4}{|l|}{\bf Heading2}\\ \thickhline
-$cell1 row1$ & cell2 row 1 & cell3 row 1 & cell4 row 1 & cell5 row 1 & cell6 row 1 & cell7 row 1 & cell8 row 1\\ \hline
-$cell1 row2$ & cell2 row 2 & cell3 row 2 & cell4 row 2 & cell5 row 2 & cell6 row 2 & cell7 row 2 & cell8 row 2\\ \hline
-$cell1 row3$ & cell2 row 3 & cell3 row 3 & cell4 row 3 & cell5 row 3 & cell6 row 3 & cell7 row 3 & cell8 row 3\\ \hline
-\end{tabular}
-\begin{flushleft} Table notes Phasellus venenatis, tortor nec vestibulum mattis, massa tortor interdum felis, nec pellentesque metus tortor nec nisl. Ut ornare mauris tellus, vel dapibus arcu suscipit sed.
-\end{flushleft}
-\label{table1}
-\end{adjustwidth}
-\end{table}
+
 
 
 %PLOS does not support heading levels beyond the 3rd (no 4th level headings).

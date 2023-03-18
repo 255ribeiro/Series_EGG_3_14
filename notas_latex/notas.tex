@@ -1,0 +1,12 @@
+Each of the selected channels (32, 37, 49 and 54) is located about the center of one of the brain's quadrants. those where the same used by \cite{Zebende2017}, when the \(DFA\) - detrended correlation analysis - where used o mesure the auto-correlation of this series. The \(DFA\) method consist of six steps:
+
+
+\begin{enumerate}
+  \label{dfa}
+  \item Taking a time series \(\{x_{i}\}\) with \(i\) ranging from \(1\) to \(N\), the integrated series \(X_{k}\) is calculated by \(X_{k} = \sum_{i=1}^{k}\left[x_{i} - \langle x \rangle \right] \) with \(k\) also ranging from \(1\) to \(N\);
+  \item the  \(X_{k}\) series is divided in \(N - n\) boxes of size \(n\)(time scale),each box containing \(n + 1\) values, starting in \(i\) up to \(i + n\);
+  \item for each box, a polynomial (usually of degree 1) best fit is calculated, getting \(\widetilde{X}_{k, i}\) with \( i \le k \le (i + n) \) (detrended values);
+  \item  in each box is calculated: \(f_{DFA}^{2}(n, i) = \frac{1}{1+n} \sum_{k=i}^{i + n}(X_{k}-\widetilde{X}_{k, i})^{2}\)
+  \item for all the boxes of a time scale the DFA is calculated as: \(F_{DFA}(n) = \sqrt{\frac{1}{N - n} \sum_{i=1}^{N-n} f_{DFA}^{2}(n, i)}\);
+  \item for a number of different timescales (n), with possible values \( 4 \le n \le \frac{N}{4}\) the \(F_{DFA}\) function is calculated to find a relation among \(F_{DFA} \times n\)
+\end{enumerate}

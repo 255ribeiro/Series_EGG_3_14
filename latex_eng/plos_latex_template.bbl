@@ -6,12 +6,19 @@ Biasiucci A, Franceschiello B, Murray MM.
 \newblock Current Biology. 2019;29(3):R80--R85.
 \newblock doi:{10.1016/j.cub.2018.11.052}.
 
-\bibitem{Zebende2017}
-Zebende GF, Filho FMO, Cruz JAL.
-\newblock Auto-Correlation in the Motor/Imaginary Human {{EEG}} Signals: {{A}}
-  Vision about the {{FDFA}} Fluctuations.
-\newblock PLoS ONE. 2017;12(9):1--13.
-\newblock doi:{10.1371/journal.pone.0183121}.
+\bibitem{Zebende2018}
+Zebende GF, Silva AM.
+\newblock Detrended {{Multiple Cross-Correlation Coefficient}}.
+\newblock Physica A. 2018;510:91--97.
+\newblock doi:{10.1016/j.physa.2018.06.119}.
+
+\bibitem{Zebende2011}
+Zebende GF.
+\newblock {{DCCA}} Cross-Correlation Coefficient: {{Quantifying}} Level of
+  Cross-Correlation.
+\newblock Physica A: Statistical Mechanics and its Applications.
+  2011;390(4):614--618.
+\newblock doi:{10.1016/j.physa.2010.10.022}.
 
 \bibitem{Mesquita2019}
 Mesquita VB, Oliveira~Filho FM, Rodrigues PC.
@@ -54,14 +61,6 @@ Podobnik B, Stanley HE.
   Two Nonstationary Time Series.
 \newblock Physical Review Letters. 2008;100(8).
 \newblock doi:{10.1103/PhysRevLett.100.084102}.
-
-\bibitem{Zebende2011}
-Zebende GF.
-\newblock {{DCCA}} Cross-Correlation Coefficient: {{Quantifying}} Level of
-  Cross-Correlation.
-\newblock Physica A: Statistical Mechanics and its Applications.
-  2011;390(4):614--618.
-\newblock doi:{10.1016/j.physa.2010.10.022}.
 
 \bibitem{PhysRevE.84.066118}
 Podobnik B, Jiang ZQ, Zhou WX, Stanley HE.
