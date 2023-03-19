@@ -1,13 +1,13 @@
 # Fdb version 3
-["bibtex plos_latex_template"] 1679181858 "plos_latex_template.aux" "plos_latex_template.bbl" "plos_latex_template" 1679181864
+["bibtex plos_latex_template"] 1679184337 "plos_latex_template.aux" "plos_latex_template.bbl" "plos_latex_template" 1679185179
   "../bibtex/zotero_exp_22_12_16.bib" 1671250511 567027 2bfef627cfab1c21b8272a2b04221b66 ""
   "./plos2015.bst" 1661525638 38071 b81f186f4b41cf496154afb7aeec3301 ""
-  "plos_latex_template.aux" 1679181863 8720 be74021e152834a3488364448692cad5 "pdflatex"
+  "plos_latex_template.aux" 1679185167 8720 4f4337289ddf7b9148ee736decc835e6 "pdflatex"
   (generated)
   "plos_latex_template.bbl"
   "plos_latex_template.blg"
-["pdflatex"] 1679181860 "d:/gitrepos/Series_EGG_3_14/latex_eng/plos_latex_template.tex" "plos_latex_template.pdf" "plos_latex_template" 1679181864
-  "../fig_cabeca/FIG_CABECA.png" 1679181697 93018 f4bb9d0a698b2916b4ba89de95b289cc ""
+["pdflatex"] 1679185157 "d:/gitrepos/Series_EGG_3_14/latex_eng/plos_latex_template.tex" "plos_latex_template.pdf" "plos_latex_template" 1679185179
+  "../fig_cabeca/FIG_CABECA.png" 1679185154 280217 d53f0bfdd05098c0ab12d455a1274c7e ""
   "../output/figs/global/mean.jpg" 1668608802 93810 ccf4ed3b02d49165b204194510d17e74 ""
   "../output/figs/global/median.jpg" 1668608803 94723 f0b9b516843dc635c5a642f51c2ead7e ""
   "../output/figs/global/std pop.jpg" 1668608806 86855 f490da23ca037e5af6814725ee469e34 ""
@@ -136,8 +136,8 @@
   "d:/Apps/Texlive/2022/texmf-var/web2c/pdftex/pdflatex.fmt" 1660153991 2873543 9ae2295dd2d4b9f35d79a5749ef69429 ""
   "d:/Apps/Texlive/2022/texmf.cnf" 1660152949 713 e69b156964470283e0530f5060668171 ""
   "d:/gitrepos/Series_EGG_3_14/latex_eng/plos_latex_template.tex" 1679181825 28788 9dd789bf87bd667139b94df5677d42b1 ""
-  "plos_latex_template.aux" 1679181863 8720 be74021e152834a3488364448692cad5 "pdflatex"
-  "plos_latex_template.bbl" 1679181860 2690 4dcbbb4887088d54261193d8c0632af9 "bibtex plos_latex_template"
+  "plos_latex_template.aux" 1679185167 8720 4f4337289ddf7b9148ee736decc835e6 "pdflatex"
+  "plos_latex_template.bbl" 1679184338 2690 4dcbbb4887088d54261193d8c0632af9 "bibtex plos_latex_template"
   "plos_latex_template.out" 0 -1 0 "pdflatex"
   "plos_latex_template.tex" 1679181825 28788 9dd789bf87bd667139b94df5677d42b1 ""
   (generated)
