@@ -295,17 +295,23 @@ In the next sections we will present the dataset; the methodology used to analyz
 
 The Physionet on-line databank is publicly available at \url{https:// physionet.org/pn4/eegmmidb/}, presents recordings of the EEG experiments described in previous section. The data is  provided in EDF (European data format) files. The files of all the experiments for every subject where downloaded using a web scraping script created by the authors using Python and the package Beautiful Soap.
 
-The EDF files where opened using Python package pyedflib and translated into text files . In EEG experiments, usually the end of the recordings is filled with a sequence of zeroes, corresponding to the time gap between the shooting down of the EEG machine and the recording system. In this pre-processing stage, all the tailing zeroes sequences are eliminated from the records. To properly apply the \dmc calculations and the intended comparisons between experiments end subjects, all the time series must have the same length. The research find out the the	experiment number 5	(Top/Down, Real) conducted with subject S106 has only 5808 valid recorded points. The second smallest time series has 15742 valid records (subject: S100, experiment: 12	-Left/Right,	Imaginary).
+The EDF files where opened using Python package \emph{pyedflib} and translated into text files . In EEG experiments, usually the end of the recordings is filled with a sequence of zeroes, corresponding to the time gap between the shooting down of the EEG machine and the recording system. In this pre-processing stage, all the tailing zeroes sequences are eliminated from the records. To properly apply the \dmc calculations and the intended comparisons between experiments end subjects, all the time series must have the same length. The research find out the the	experiment number 5	(Top/Down, Real) conducted with subject S106 has only 5808 valid recorded points. The second smallest time series has 15742 valid records (subject: S100, experiment: 12	-Left/Right,	Imaginary).
 
 The interval between each recorded value in this equipment is 6.25 ms, and the recordings on experiment 5 of subject S106 is 36.3 s. The duration is way smaller then the expected 2 minutes and the series is relatively small to the application os the \dmc method. Cutting all the subjects data to this duration implies in a great loss of data. The second smaller series of 15742 represents a total duration of 98.3875 s. The value was considered adequate to the \dmc method and the duration is about 82\% of the expected duration. The decision was to eliminate subject S106 from the experiment and to cut all time series at recording point 15742. resulting in a total number of 108 subjects with all 12 experiments per subject lasting 98.3875 s.
 
 
-To analise the dataset, this study uses the Detrended Multiple Cross-Correlation Coefficient (\dmc) \cite{Zebende2018}. This coefficient, based on the \pdcca \cite{Zebende2011}, determinates the correlation between one time serie (as the dependent variable) and a number \(n\) of time series (as independent variables).
+The \dmc is part of a group of new statistical methods applied to long-range time series. The \(DFA\) method \cite{Peng1994} was proposed to identify self-affinity in of a signal. For long-memory series, the value of the \(F_{DFA}(n)\) usually grow with the time scale \(n\) denoting a power-law, described by the auto-correlation exponent \(\alpha\). This method was already used to evaluate the self-affinity of the same channels of this same dataset analyzed in this study, concluding xthat the amplitude of fluctuation tends to be larger in the frontal channels ``(\(F_{3}32\) and \(F_{6}37)\), if we compare with the channels located in the parietal region of the brain (\(P_{3}49\) and \(P_{6}54\))''\cite{Zebende2017}.
 
-The \(DCCA\) aims to identify the existence of a correlations among two time series, and is very similar to the \(DFA\) algorithm: the steps 1, 2 and 3 are calculated for two timeseries \(x_{1i}\) and \(x_{2i}\), generating the integrated series \(X_{1k}\) and \(X_{2k}\) in the first steps and the detrended series \(\widetilde{X}_{1k, i}\) and \(\widetilde{X}_{2k, i}\) in the third step.
+The Detrended Cross-Correlation Coefficient,\(DCCA\) \cite{Podobnik2008}, expand the idea of the \(DFA\) to analyze the long-range cross-correlation for two non-stationary time series, but the quantification of the level of this correlation is calculated by the \pdcca \cite{Zebende2011}, proposed tree year later. Equation \ref{eq:pdcca} shows that the \pdcca of two time series, \(x_{a}\) and \(x_{b}\) is calculated using the \(DFA\) and the \(DCCA\) methods. 
 
-\begin{equation} \label{eq:fdcca}
-  f_{DCCA}^{2}(n, i) = \frac{1}{1+n} \sum_{k=i}^{i + n} (X_{1k}-\widetilde{X}_{1k, i}) (X_{2k}-\widetilde{X}_{2k, i})
+\begin{equation}\label{eq:pdcca}
+  {\rho}_{x_{a},x_{b}}(n) = \frac{F_{DCCA_{(xa,xb)}}^{2}(n)}{F_{DFA_{xa}}(n) F_{DFA_{xb}}(n)}
+  \end{equation}
+
+To analise the dataset, this study uses the Detrended Multiple Cross-Correlation Coefficient (\dmc) \cite{Zebende2018}. This coefficient, is a generalization of the \pdcca, that determinates the correlation between two time serie. Considering a  
+
+\begin{equation}\label{eq:dmc}
+  {DMC}_{x}^{2}  \equiv \rho_{y,x_{i}}(n)^{T} \rho^{-1}(n) \rho_{y,x_{i}}(n)
 \end{equation}
 
 \begin{equation}\label{eq:dmc_4x_y} 

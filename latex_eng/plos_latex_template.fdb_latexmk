@@ -1,12 +1,12 @@
 # Fdb version 3
-["bibtex plos_latex_template"] 1679671366 "plos_latex_template.aux" "plos_latex_template.bbl" "plos_latex_template" 1679672246
+["bibtex plos_latex_template"] 1679692943 "plos_latex_template.aux" "plos_latex_template.bbl" "plos_latex_template" 1679693139
   "../bibtex/zotero_exp_22_12_16.bib" 1671250511 567027 2bfef627cfab1c21b8272a2b04221b66 ""
   "./plos2015.bst" 1661525638 38071 b81f186f4b41cf496154afb7aeec3301 ""
-  "plos_latex_template.aux" 1679672245 8998 c89869513738c99e68a4ba2288f3d043 "pdflatex"
+  "plos_latex_template.aux" 1679693138 9156 f820bfac1fe3caff3e3cabf26b7622f9 "pdflatex"
   (generated)
   "plos_latex_template.bbl"
   "plos_latex_template.blg"
-["pdflatex"] 1679672242 "d:/gitrepos/Series_EGG_3_14/latex_eng/plos_latex_template.tex" "plos_latex_template.pdf" "plos_latex_template" 1679672246
+["pdflatex"] 1679693136 "d:/gitrepos/Series_EGG_3_14/latex_eng/plos_latex_template.tex" "plos_latex_template.pdf" "plos_latex_template" 1679693139
   "../fig_cabeca/FIG_CABECA.png" 1679185154 280217 d53f0bfdd05098c0ab12d455a1274c7e ""
   "../output/figs/global/mean.jpg" 1668608802 93810 ccf4ed3b02d49165b204194510d17e74 ""
   "../output/figs/global/median.jpg" 1668608803 94723 f0b9b516843dc635c5a642f51c2ead7e ""
@@ -34,13 +34,14 @@
   "d:/Apps/Texlive/2022/texmf-dist/fonts/tfm/public/cm/cmr12.tfm" 1660144688 1288 655e228510b4c2a1abe905c368440826 ""
   "d:/Apps/Texlive/2022/texmf-dist/fonts/tfm/public/cm/cmss8.tfm" 1660144688 1296 d77f431d10d47c8ea2cc18cf45346274 ""
   "d:/Apps/Texlive/2022/texmf-dist/fonts/tfm/public/cm/cmsy10.tfm" 1660144688 1124 6c73e740cf17375f03eec0ee63599741 ""
+  "d:/Apps/Texlive/2022/texmf-dist/fonts/tfm/public/cm/cmti10.tfm" 1660144688 1480 aa8e34af0eb6a2941b776984cf1dfdc4 ""
   "d:/Apps/Texlive/2022/texmf-dist/fonts/tfm/public/cm/cmtt10.tfm" 1660144688 768 1321e9409b4137d6fb428ac9dc956269 ""
   "d:/Apps/Texlive/2022/texmf-dist/fonts/tfm/public/marvosym/umvs.tfm" 1660148276 1772 135d23849cb646acc6bb1ae8d73e3f78 ""
   "d:/Apps/Texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb" 1660142269 34811 78b52f49e893bcba91bd7581cdc144c0 ""
   "d:/Apps/Texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb" 1660142269 32080 340ef9bf63678554ee606688e7b5339d ""
-  "d:/Apps/Texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb" 1660142269 30251 6afa5cb1d0204815a708a080681d4674 ""
   "d:/Apps/Texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb" 1660142269 36299 5f9df58c2139e7edcf37c8fca4bd384d ""
   "d:/Apps/Texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb" 1660142269 36741 0ee9e374ec3e30da87cdfb0ea3575226 ""
+  "d:/Apps/Texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb" 1660142269 37912 07513ec114ac737ab54cea0152f4424b ""
   "d:/Apps/Texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb" 1660142269 36281 c355509802a035cadc5f15869451dcee ""
   "d:/Apps/Texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb" 1660142269 35752 024fb6c41858982481f6968b5fc26508 ""
   "d:/Apps/Texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb" 1660142269 32722 d7379af29a190c3f453aba36302ff5a9 ""
@@ -49,6 +50,7 @@
   "d:/Apps/Texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb" 1660142269 24420 52dbb8e8aa0069a1b987309557f8d303 ""
   "d:/Apps/Texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb" 1660142269 32569 5e5ddc8df908dea60932f3c484a54c0d ""
   "d:/Apps/Texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb" 1660142269 32716 08e384dc442464e7285e891af9f45947 ""
+  "d:/Apps/Texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb" 1660142269 37944 359e864bd06cde3b1cf57bb20757fb06 ""
   "d:/Apps/Texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb" 1660142269 31099 342ef5a582aacbd3346f3cf4579679fa ""
   "d:/Apps/Texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfrm0700.pfb" 1660144717 154599 111aa29c1b43dc5b4a8516224bf12bac ""
   "d:/Apps/Texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb" 1660144717 138258 6525c253f16cededa14c7fd0da7f67b2 ""
@@ -135,11 +137,11 @@
   "d:/Apps/Texlive/2022/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1660153591 4634956 047842224a617e2c701c13aca57ee044 ""
   "d:/Apps/Texlive/2022/texmf-var/web2c/pdftex/pdflatex.fmt" 1660153991 2873543 9ae2295dd2d4b9f35d79a5749ef69429 ""
   "d:/Apps/Texlive/2022/texmf.cnf" 1660152949 713 e69b156964470283e0530f5060668171 ""
-  "d:/gitrepos/Series_EGG_3_14/latex_eng/plos_latex_template.tex" 1679672241 29480 6ae5c2a13aed9da4f69d61bd255fd6b8 ""
-  "plos_latex_template.aux" 1679672245 8998 c89869513738c99e68a4ba2288f3d043 "pdflatex"
-  "plos_latex_template.bbl" 1679671367 2690 4dcbbb4887088d54261193d8c0632af9 "bibtex plos_latex_template"
+  "d:/gitrepos/Series_EGG_3_14/latex_eng/plos_latex_template.tex" 1679693134 30321 e59c44dfe7ebcaa778643354dafc19fe ""
+  "plos_latex_template.aux" 1679693138 9156 f820bfac1fe3caff3e3cabf26b7622f9 "pdflatex"
+  "plos_latex_template.bbl" 1679692943 2951 d99d2a48b30b46529b3f67c2a55e657e "bibtex plos_latex_template"
   "plos_latex_template.out" 0 -1 0 "pdflatex"
-  "plos_latex_template.tex" 1679672241 29480 6ae5c2a13aed9da4f69d61bd255fd6b8 ""
+  "plos_latex_template.tex" 1679693134 30321 e59c44dfe7ebcaa778643354dafc19fe ""
   (generated)
   "plos_latex_template.aux"
   "plos_latex_template.log"

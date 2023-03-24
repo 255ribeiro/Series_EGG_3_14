@@ -793,6 +793,7 @@ INPUT ../fig_cabeca/FIG_CABECA.png
 INPUT ../fig_cabeca/FIG_CABECA.png
 INPUT ../fig_cabeca/FIG_CABECA.png
 INPUT ../fig_cabeca/FIG_CABECA.png
+INPUT d:/Apps/Texlive/2022/texmf-dist/fonts/tfm/public/cm/cmti10.tfm
 INPUT ../output/figs/stats/S014.jpg
 INPUT ../output/figs/stats/S014.jpg
 INPUT ../output/figs/stats/S014.jpg
@@ -845,9 +846,9 @@ INPUT ./plos_latex_template.out
 INPUT d:/Apps/Texlive/2022/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc
 INPUT d:/Apps/Texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
 INPUT d:/Apps/Texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb
-INPUT d:/Apps/Texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb
 INPUT d:/Apps/Texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb
 INPUT d:/Apps/Texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb
+INPUT d:/Apps/Texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb
 INPUT d:/Apps/Texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb
 INPUT d:/Apps/Texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb
 INPUT d:/Apps/Texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb
@@ -856,6 +857,7 @@ INPUT d:/Apps/Texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb
 INPUT d:/Apps/Texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb
 INPUT d:/Apps/Texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb
 INPUT d:/Apps/Texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb
+INPUT d:/Apps/Texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb
 INPUT d:/Apps/Texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb
 INPUT d:/Apps/Texlive/2022/texmf-dist/fonts/type1/public/marvosym/marvosym.pfb
 INPUT d:/Apps/Texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfrm0700.pfb
