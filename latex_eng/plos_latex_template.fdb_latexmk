@@ -1,12 +1,12 @@
 # Fdb version 3
-["bibtex plos_latex_template"] 1679184337 "plos_latex_template.aux" "plos_latex_template.bbl" "plos_latex_template" 1679185179
+["bibtex plos_latex_template"] 1679671366 "plos_latex_template.aux" "plos_latex_template.bbl" "plos_latex_template" 1679672246
   "../bibtex/zotero_exp_22_12_16.bib" 1671250511 567027 2bfef627cfab1c21b8272a2b04221b66 ""
   "./plos2015.bst" 1661525638 38071 b81f186f4b41cf496154afb7aeec3301 ""
-  "plos_latex_template.aux" 1679185167 8720 4f4337289ddf7b9148ee736decc835e6 "pdflatex"
+  "plos_latex_template.aux" 1679672245 8998 c89869513738c99e68a4ba2288f3d043 "pdflatex"
   (generated)
   "plos_latex_template.bbl"
   "plos_latex_template.blg"
-["pdflatex"] 1679185157 "d:/gitrepos/Series_EGG_3_14/latex_eng/plos_latex_template.tex" "plos_latex_template.pdf" "plos_latex_template" 1679185179
+["pdflatex"] 1679672242 "d:/gitrepos/Series_EGG_3_14/latex_eng/plos_latex_template.tex" "plos_latex_template.pdf" "plos_latex_template" 1679672246
   "../fig_cabeca/FIG_CABECA.png" 1679185154 280217 d53f0bfdd05098c0ab12d455a1274c7e ""
   "../output/figs/global/mean.jpg" 1668608802 93810 ccf4ed3b02d49165b204194510d17e74 ""
   "../output/figs/global/median.jpg" 1668608803 94723 f0b9b516843dc635c5a642f51c2ead7e ""
@@ -135,11 +135,11 @@
   "d:/Apps/Texlive/2022/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1660153591 4634956 047842224a617e2c701c13aca57ee044 ""
   "d:/Apps/Texlive/2022/texmf-var/web2c/pdftex/pdflatex.fmt" 1660153991 2873543 9ae2295dd2d4b9f35d79a5749ef69429 ""
   "d:/Apps/Texlive/2022/texmf.cnf" 1660152949 713 e69b156964470283e0530f5060668171 ""
-  "d:/gitrepos/Series_EGG_3_14/latex_eng/plos_latex_template.tex" 1679181825 28788 9dd789bf87bd667139b94df5677d42b1 ""
-  "plos_latex_template.aux" 1679185167 8720 4f4337289ddf7b9148ee736decc835e6 "pdflatex"
-  "plos_latex_template.bbl" 1679184338 2690 4dcbbb4887088d54261193d8c0632af9 "bibtex plos_latex_template"
+  "d:/gitrepos/Series_EGG_3_14/latex_eng/plos_latex_template.tex" 1679672241 29480 6ae5c2a13aed9da4f69d61bd255fd6b8 ""
+  "plos_latex_template.aux" 1679672245 8998 c89869513738c99e68a4ba2288f3d043 "pdflatex"
+  "plos_latex_template.bbl" 1679671367 2690 4dcbbb4887088d54261193d8c0632af9 "bibtex plos_latex_template"
   "plos_latex_template.out" 0 -1 0 "pdflatex"
-  "plos_latex_template.tex" 1679181825 28788 9dd789bf87bd667139b94df5677d42b1 ""
+  "plos_latex_template.tex" 1679672241 29480 6ae5c2a13aed9da4f69d61bd255fd6b8 ""
   (generated)
   "plos_latex_template.aux"
   "plos_latex_template.log"
