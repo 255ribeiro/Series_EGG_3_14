@@ -229,8 +229,7 @@ Gilney Figueira Zebende\textsuperscript{2}
 \end{flushleft}
 % Please keep the abstract below 300 words
 \section*{Abstract}
-This paper presents an investigation of a motor/imaginary experiment electroencephalogram (EEG) 64-channels recordings, available on the Physionet on-line databank, using the detrended multiple cross-correlation coefficient (\dmc). Analyzing data from 4 channels, \(F_{3}32\), \(F_{6}37\) (frontal region of the head) and \(P_{3}49\), \(P_{6}54\) (parietal region of the head), the \dmc was used to evaluate the correlation among one of the channels with the three others alternately. Using all the motor/imaginary experiments and 108 of the 109 subjects, our analysis points to a pattern, detected on most of the subjects, where the correlation of the channel \(F_{3}32\) against the others presents the higher correlation coefficient compared to the other combinations. The reason why some persons
-don't match that pattern is still an open question.
+This paper presents an investigation on the electroencephalogram (EEG) 64-channels recordings of a motor/imaginary experiment, using the detrended multiple cross-correlation coefficient (\dmc). Analyzing data from 4 channels, \(F_{3}32\), \(F_{6}37\) (frontal region of the head) and \(P_{3}49\), \(P_{6}54\) (parietal region of the head), the \dmc was applied to evaluate the correlation among one of the channels with the three others alternately. Analyzing all the motor/imaginary experiments and 108 of the 109 subjects, this research points to a pattern, detected on most of the subjects: Using channel \(F_{3}32\) against the others, the correlation coefficient is higher compared to the other combinations. The reason why some persons don't match that pattern is still an open question.
 
 % Please keep the Author Summary between 150 and 200 words
 % Use first person. PLOS ONE authors please skip this step. 
@@ -242,15 +241,7 @@ don't match that pattern is still an open question.
 % Use "Eq" instead of "Equation" for equation citations.
 \section*{Introduction}
 
-The electroencephalogram (EEG) is, in short, a technic that reads electrical signals from the brain activity with the use of sensors placed in the scalp of the patient and makes sense of this data. Impulses are amplified and recorded over time in parallel, one time serie for each sensor. The EEG equipment  mesures the electric potential difference from each sensor position in relation with a reference sensor, usually placed in the ear lobe. Although the EEG is almost a centenary technic, in recent decades EEG has addressed new problems as brain-triggered neurorehabilitation treatments, experimental psychology or even computational neuroscience, due to it's versatility and accessibility combined with the advances in signal processing~\cite{Biasiucci2019}.
-
-\begin{figure}[!h]
-  \caption{{\bf Bold the figure title.}
-  \includegraphics[width=.9\textwidth]{../fig_cabeca/FIG_CABECA.png}
-  Figure caption text here, please use this space for the figure panel descriptions instead of using subfigure commands. A: Lorem ipsum dolor sit amet. B: Consectetur adipiscing elit.}
-  \label{fig:cabeca}
-  \end{figure}
-
+The electroencephalogram (EEG) is, in short, a technic that reads electrical signals from the brain activity with the use of sensors placed in the scalp of the patient and makes sense of this data. Impulses are amplified and recorded over time in parallel, generating one time serie for each sensor. The EEG equipment mesures the electric potential difference from each sensor position in relation with a reference sensor, usually placed in the ear lobe. Although the EEG is almost a centenary technic, in recent decades EEG has addressed new problems as brain-triggered neurorehabilitation treatments, experimental psychology or even computational neuroscience, due to it's versatility and accessibility combined with the advances in signal processing~\cite{Biasiucci2019}.
 
 The recordings used are available at the Physionet on-line databank (\url{https:// physionet.org/pn4/eegmmidb/}). The data is originated from a study that perform 14 experiments on a population of 109 subjects, Using 64 electrodes to record the brain signals. The first 2 experiments are baseline references, the subjects where resting with eyes opened end the second with eyes closed (one minute for each). The other four experiments are a combination of two categories with two possible options each \(2 \times 2\ = 4\). In general, the experiments consist of making the subjects react over visual stimulus: a target that appears on a screen. One category is about the target position, one option is a target that will aperar on the left or the right of the screen, in the other,the target will appear on the top or on the bottom of the screen. The second category determines if the subject will actually execute a body action related to the target position (Real) or if the corresponding action will be just imagined (Imaginary) by the subject. The tasks, with duration of two minutes, are described below:
 
@@ -287,29 +278,35 @@ Table \ref{table1} presents witch Task is carried in each experiment number. Eve
   %\end{adjustwidth}
   \end{table}
 
-To analise the dataset, this study uses the Detrended Multiple Cross-Correlation Coefficient (\dmc) \cite{Zebende2018}. This coefficient, based on the \pdcca \cite{Zebende2011}, determinates the correlation between one time serie (as the dependent variable) and a number \(n\) of time series (as independent variables).
+The electrodes in all tasks and experiments where located as shown in Figure \ref{fig:cabeca}. The colored circles in Figure \ref{fig:cabeca} correspond to the positions of the electrodes channels whose recordings were used in our analyses: \(F_{3}32\) (blue) and \(F_{6}37\) (yellow), on the frontal region of the head, and \(P_{3}49\) (red) and \(P_{6}54\) (green), on the parietal region of the head.
 
-For channels where selected to be analyzed, \(F_{3}32\), \(F_{6}37\) (frontal region of the head) and \(P_{3}49\), \(P_{6}54\) (parietal region of the head). The four channels are alternately picked as dependent variable and the correlation against the other three are calculated.
+\begin{figure}[!h]
+  \caption{{\bf Electrodes position illustration.}
+  \includegraphics[width=.9\textwidth]{../fig_cabeca/FIG_CABECA.png}
+  \\ Position of the 64 electrodes according to the international10-20 system (excluding electrodes Nz, F9, F10, FT9, FT10, A1, A2, TP9, TP10, P9, and P10). The colored dots: \(F_{3}32\) (blue), \(F_{6}37\) (yellow), \(P_{3}49\) (red), \(P_{6}54\) (green) identify the channels used in this research.}
+  \label{fig:cabeca}
+  \end{figure}
 
-In the next sections we will present the dataset, the methodology used to analyze the data, the results encountered by the application of our methodology, the discussion of the results and the conclusion.
+The four channels are alternately picked as dependent variable and the correlation against the other three are calculated by the application of the Detrended Multiple Cross-Correlation Coefficient (\dmc) \cite{Zebende2018}
+
+In the next sections we will present the dataset; the methodology used to analyze the data, including pre-processing strategies and criteria, and the \dmc method; the results, statistics and data visualization for the analyzed populations and individual results for randomly selected subjects. The discussion of the results and the conclusions are presented in sequence. In the supporting materials, a link to access all the calculations and data visualization for all the experiment subjects is available.
 
 \section*{Materials and methods}
 
-The Physionet on-line databank is publicly available at \url{https:// physionet.org/pn4/eegmmidb/}, presents recordings of the described EEG experiments. The data is stored in EDF (European data format) files. The files of all the experiments for every subject where downloaded using a web scraping script created by the authors using Python and the package Beautiful Soap.
+The Physionet on-line databank is publicly available at \url{https:// physionet.org/pn4/eegmmidb/}, presents recordings of the EEG experiments described in previous section. The data is  provided in EDF (European data format) files. The files of all the experiments for every subject where downloaded using a web scraping script created by the authors using Python and the package Beautiful Soap.
 
-The EDF files where opened using Python package pyedflib and reorganized . In EEG experiments, usually the end of the recordings is filled with a sequence of zeroes, corresponding to the time gap between the shooting down of the EEG machine and the recording system. In this pre-processing stage, all the tailing zeroes sequences are eliminated from the records. To properly apply the \dmc calculations and the intended comparisons between experiments end subjects, all the time series must have the same length. The research find out the the	experiment number 5	(Top/Down, Real) conducted with subject S106 has only 5808 valid recorded points. The second smallest time series has 15742 valid records (subject: S100, experiment: 12	-Left/Right,	Imaginary).
+The EDF files where opened using Python package pyedflib and translated into text files . In EEG experiments, usually the end of the recordings is filled with a sequence of zeroes, corresponding to the time gap between the shooting down of the EEG machine and the recording system. In this pre-processing stage, all the tailing zeroes sequences are eliminated from the records. To properly apply the \dmc calculations and the intended comparisons between experiments end subjects, all the time series must have the same length. The research find out the the	experiment number 5	(Top/Down, Real) conducted with subject S106 has only 5808 valid recorded points. The second smallest time series has 15742 valid records (subject: S100, experiment: 12	-Left/Right,	Imaginary).
 
 The interval between each recorded value in this equipment is 6.25 ms, and the recordings on experiment 5 of subject S106 is 36.3 s. The duration is way smaller then the expected 2 minutes and the series is relatively small to the application os the \dmc method. Cutting all the subjects data to this duration implies in a great loss of data. The second smaller series of 15742 represents a total duration of 98.3875 s. The value was considered adequate to the \dmc method and the duration is about 82\% of the expected duration. The decision was to eliminate subject S106 from the experiment and to cut all time series at recording point 15742. resulting in a total number of 108 subjects with all 12 experiments per subject lasting 98.3875 s.
 
+
+To analise the dataset, this study uses the Detrended Multiple Cross-Correlation Coefficient (\dmc) \cite{Zebende2018}. This coefficient, based on the \pdcca \cite{Zebende2011}, determinates the correlation between one time serie (as the dependent variable) and a number \(n\) of time series (as independent variables).
+
 The \(DCCA\) aims to identify the existence of a correlations among two time series, and is very similar to the \(DFA\) algorithm: the steps 1, 2 and 3 are calculated for two timeseries \(x_{1i}\) and \(x_{2i}\), generating the integrated series \(X_{1k}\) and \(X_{2k}\) in the first steps and the detrended series \(\widetilde{X}_{1k, i}\) and \(\widetilde{X}_{2k, i}\) in the third step.
-
-
-
 
 \begin{equation} \label{eq:fdcca}
   f_{DCCA}^{2}(n, i) = \frac{1}{1+n} \sum_{k=i}^{i + n} (X_{1k}-\widetilde{X}_{1k, i}) (X_{2k}-\widetilde{X}_{2k, i})
 \end{equation}
-
 
 \begin{equation}\label{eq:dmc_4x_y} 
   \begin{split}
@@ -323,20 +320,15 @@ DMC_{x}^{2} \quad = \quad & ( \rho^{2}_{X_{2},X_{3}} \times \rho^{2}_{Y,X_{1}}- 
  \end{split}
 \end{equation}
 
-
-
-
 The \fdfa root mean square (rms) fluctuation function was already used to analyze a subset of the same dataset used here to evaluate   \cite{Mesquita2019} \cite{OliveiraFilho2019} \cite{OliveiraFilho2021}
 
 
 \cite{Peng1994, Buldyrev1950}, \cite{Podobnik2008}, \cite{Zebende2011}, \cite{PhysRevE.84.066118}, 
 
-
 % \begin{eqnarray}
 % \label{eq:schemeP}
 % 	\mathrm{P_Y} = \underbrace{H(Y_n) - H(Y_n|\mathbf{V}^{Y}_{n})}_{S_Y} + \underbrace{H(Y_n|\mathbf{V}^{Y}_{n})- H(Y_n|\mathbf{V}^{X,Y}_{n})}_{T_{X\rightarrow Y}},
 % \end{eqnarray}
-
 
 % Results and Discussion can be combined.
 \section*{Results}
@@ -352,66 +344,59 @@ Figure caption text here, please use this space for the figure panel description
 \label{fig1}
 \end{figure}
 
-
 \begin{figure}[!h]
   \caption{{\bf Bold the figure title.}
   \includegraphics[width=.9\textwidth]{../output/figs/stats/S036.jpg}
   Figure caption text here, please use this space for the figure panel descriptions instead of using subfigure commands. A: Lorem ipsum dolor sit amet. B: Consectetur adipiscing elit.}
   \label{fig36}
-  \end{figure}
+\end{figure}
 
-
-  \begin{figure}[!h]
+\begin{figure}[!h]
     \caption{{\bf Bold the figure title.}
     \includegraphics[width=.9\textwidth]{../output/figs/stats/S039.jpg}
     Figure caption text here, please use this space for the figure panel descriptions instead of using subfigure commands. A: Lorem ipsum dolor sit amet. B: Consectetur adipiscing elit.}
     \label{fig39}
-    \end{figure}
+\end{figure}
 
-  \begin{figure}[!h]
+\begin{figure}[!h]
     \caption{{\bf Bold the figure title.}
     \includegraphics[width=.9\textwidth]{../output/figs/stats/S078.jpg}
       Figure caption text here, please use this space for the figure panel descriptions instead of using subfigure commands. A: Lorem ipsum dolor sit amet. B: Consectetur adipiscing elit.}
     \label{fig78}
-    \end{figure}
+\end{figure}
 
-  \begin{figure}[!h]
+\begin{figure}[!h]
     \caption{{\bf Bold the figure title.}
     \includegraphics[width=.9\textwidth]{../output/figs/stats/S099.jpg}
       Figure caption text here, please use this space for the figure panel descriptions instead of using subfigure commands. A: Lorem ipsum dolor sit amet. B: Consectetur adipiscing elit.}
     \label{fig99}
-    \end{figure}
+\end{figure}
 
 
-  \begin{figure}[!h]
+\begin{figure}[!h]
     \caption{{\bf Bold the figure title.}
     \includegraphics[width=.9\textwidth]{../output/figs/global/mean.jpg}
       Figure caption text here, please use this space for the figure panel descriptions instead of using subfigure commands. A: Lorem ipsum dolor sit amet. B: Consectetur adipiscing elit.}
       \label{glob_mean}
-      \end{figure}
+\end{figure}
 
 
-  \begin{figure}[!h]
+
+\begin{figure}[!h]
     \caption{{\bf Bold the figure title.}
     \includegraphics[width=.9\textwidth]{../output/figs/global/median.jpg}
       Figure caption text here, please use this space for the figure panel descriptions instead of using subfigure commands. A: Lorem ipsum dolor sit amet. B: Consectetur adipiscing elit.}
     \label{glob_median}
-    \end{figure}
+\end{figure}
 
-
-  \begin{figure}[!h]
+\begin{figure}[!h]
     \caption{{\bf Bold the figure title.}
     \includegraphics[width=.9\textwidth]{../output/figs/global/std pop.jpg}
     Figure caption text here, please use this space for the figure panel descriptions instead of using subfigure commands. A: Lorem ipsum dolor sit amet. B: Consectetur adipiscing elit.}
     \label{glob_std_pop}
-    \end{figure}
-
-
+\end{figure}
 
 Nulla mi mi, venenatis sed ipsum varius, Table~\ref{table1} volutpat euismod diam. Proin rutrum vel massa non gravida. Quisque tempor sem et dignissim rutrum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi at justo vitae nulla elementum commodo eu id massa. In vitae diam ac augue semper tincidunt eu ut eros. Fusce fringilla erat porttitor lectus cursus, vel sagittis arcu lobortis. Aliquam in enim semper, aliquam massa id, cursus neque. Praesent faucibus semper libero.
-
-
-
 
 %PLOS does not support heading levels beyond the 3rd (no 4th level headings).
 \subsection*{\lorem\ and \ipsum\ nunc blandit a tortor}
@@ -443,8 +428,6 @@ Nulla mi mi, venenatis sed ipsum varius, Table~\ref{table1} volutpat euismod dia
 CO\textsubscript{2} Maecenas convallis mauris sit amet sem ultrices gravida. Etiam eget sapien nibh. Sed ac ipsum eget enim egestas ullamcorper nec euismod ligula. Curabitur fringilla pulvinar lectus consectetur pellentesque. Quisque augue sem, tincidunt sit amet feugiat eget, ullamcorper sed velit. 
 
 Sed non aliquet felis. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris commodo justo ac dui pretium imperdiet. Sed suscipit iaculis mi at feugiat. Ut neque ipsum, luctus id lacus ut, laoreet scelerisque urna. Phasellus venenatis, tortor nec vestibulum mattis, massa tortor interdum felis, nec pellentesque metus tortor nec nisl. Ut ornare mauris tellus, vel dapibus arcu suscipit sed. Nam condimentum sem eget mollis euismod. Nullam dui urna, gravida venenatis dui et, tincidunt sodales ex. Nunc est dui, sodales sed mauris nec, auctor sagittis leo. Aliquam tincidunt, ex in facilisis elementum, libero lectus luctus est, non vulputate nisl augue at dolor. For more information, see.
-
-
 
 \section*{Supporting information}
 
