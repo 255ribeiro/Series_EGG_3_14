@@ -794,48 +794,123 @@ INPUT ../fig_cabeca/FIG_CABECA.png
 INPUT ../fig_cabeca/FIG_CABECA.png
 INPUT ../fig_cabeca/FIG_CABECA.png
 INPUT d:/Apps/Texlive/2022/texmf-dist/fonts/tfm/public/cm/cmti10.tfm
-INPUT ../output/figs/stats/S014.jpg
-INPUT ../output/figs/stats/S014.jpg
-INPUT ../output/figs/stats/S014.jpg
-INPUT ../output/figs/stats/S014.jpg
-INPUT ../output/figs/stats/S014.jpg
-INPUT ../output/figs/stats/S036.jpg
-INPUT ../output/figs/stats/S036.jpg
-INPUT ../output/figs/stats/S036.jpg
-INPUT ../output/figs/stats/S036.jpg
-INPUT ../output/figs/stats/S036.jpg
-INPUT ../output/figs/stats/S039.jpg
-INPUT ../output/figs/stats/S039.jpg
-INPUT ../output/figs/stats/S039.jpg
-INPUT ../output/figs/stats/S039.jpg
-INPUT ../output/figs/stats/S039.jpg
-INPUT ../output/figs/stats/S078.jpg
-INPUT ../output/figs/stats/S078.jpg
-INPUT ../output/figs/stats/S078.jpg
-INPUT ../output/figs/stats/S078.jpg
-INPUT ../output/figs/stats/S078.jpg
-INPUT ../output/figs/stats/S099.jpg
-INPUT ../output/figs/stats/S099.jpg
-INPUT ../output/figs/stats/S099.jpg
-INPUT ../output/figs/stats/S099.jpg
-INPUT ../output/figs/stats/S099.jpg
-INPUT ../output/figs/global/mean.jpg
-INPUT ../output/figs/global/mean.jpg
-INPUT ../output/figs/global/mean.jpg
-INPUT ../output/figs/global/mean.jpg
-INPUT ../output/figs/global/mean.jpg
-INPUT ../output/figs/global/median.jpg
-INPUT ../output/figs/global/median.jpg
-INPUT ../output/figs/global/median.jpg
-INPUT ../output/figs/global/median.jpg
-INPUT ../output/figs/global/median.jpg
-INPUT ../output/figs/global/std pop.jpg
-INPUT ../output/figs/global/std pop.jpg
-INPUT ../output/figs/global/std pop.jpg
-INPUT ../output/figs/global/std pop.jpg
-INPUT ../output/figs/global/std pop.jpg
 INPUT d:/Apps/Texlive/2022/texmf-dist/fonts/tfm/public/cm/cmr12.tfm
 INPUT d:/Apps/Texlive/2022/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm
+INPUT ../output/figs/experiments/S014_Left Right_Imaginary.jpg
+INPUT ../output/figs/experiments/S014_Left Right_Imaginary.jpg
+INPUT ../output/figs/experiments/S014_Left Right_Imaginary.jpg
+INPUT ../output/figs/experiments/S014_Left Right_Imaginary.jpg
+INPUT ../output/figs/experiments/S014_Left Right_Imaginary.jpg
+INPUT ../output/figs/stats/S014.jpg
+INPUT ../output/figs/stats/S014.jpg
+INPUT ../output/figs/stats/S014.jpg
+INPUT ../output/figs/stats/S014.jpg
+INPUT ../output/figs/stats/S014.jpg
+INPUT ../output/figs/stats/S036.jpg
+INPUT ../output/figs/stats/S036.jpg
+INPUT ../output/figs/stats/S036.jpg
+INPUT ../output/figs/stats/S036.jpg
+INPUT ../output/figs/stats/S036.jpg
+INPUT ../output/figs/stats/S039.jpg
+INPUT ../output/figs/stats/S039.jpg
+INPUT ../output/figs/stats/S039.jpg
+INPUT ../output/figs/stats/S039.jpg
+INPUT ../output/figs/stats/S039.jpg
+INPUT ../output/figs/stats/S078.jpg
+INPUT ../output/figs/stats/S078.jpg
+INPUT ../output/figs/stats/S078.jpg
+INPUT ../output/figs/stats/S078.jpg
+INPUT ../output/figs/stats/S078.jpg
+INPUT ../output/figs/stats/S099.jpg
+INPUT ../output/figs/stats/S099.jpg
+INPUT ../output/figs/stats/S099.jpg
+INPUT ../output/figs/stats/S099.jpg
+INPUT ../output/figs/stats/S099.jpg
+INPUT ../output/figs/global/mean.jpg
+INPUT ../output/figs/global/mean.jpg
+INPUT ../output/figs/global/mean.jpg
+INPUT ../output/figs/global/mean.jpg
+INPUT ../output/figs/global/mean.jpg
+INPUT ../output/figs/global/median.jpg
+INPUT ../output/figs/global/median.jpg
+INPUT ../output/figs/global/median.jpg
+INPUT ../output/figs/global/median.jpg
+INPUT ../output/figs/global/median.jpg
+INPUT ../output/figs/global/std pop.jpg
+INPUT ../output/figs/global/std pop.jpg
+INPUT ../output/figs/global/std pop.jpg
+INPUT ../output/figs/global/std pop.jpg
+INPUT ../output/figs/global/std pop.jpg
+INPUT ../output/figs/diff/S014.jpg
+INPUT ../output/figs/diff/S014.jpg
+INPUT ../output/figs/diff/S014.jpg
+INPUT ../output/figs/diff/S014.jpg
+INPUT ../output/figs/diff/S014.jpg
+INPUT ../output/figs/diff/S036.jpg
+INPUT ../output/figs/diff/S036.jpg
+INPUT ../output/figs/diff/S036.jpg
+INPUT ../output/figs/diff/S036.jpg
+INPUT ../output/figs/diff/S036.jpg
+INPUT ../output/figs/diff/S039.jpg
+INPUT ../output/figs/diff/S039.jpg
+INPUT ../output/figs/diff/S039.jpg
+INPUT ../output/figs/diff/S039.jpg
+INPUT ../output/figs/diff/S039.jpg
+INPUT ../output/figs/diff/S078.jpg
+INPUT ../output/figs/diff/S078.jpg
+INPUT ../output/figs/diff/S078.jpg
+INPUT ../output/figs/diff/S078.jpg
+INPUT ../output/figs/diff/S078.jpg
+INPUT ../output/figs/diff/S099.jpg
+INPUT ../output/figs/diff/S099.jpg
+INPUT ../output/figs/diff/S099.jpg
+INPUT ../output/figs/diff/S099.jpg
+INPUT ../output/figs/diff/S099.jpg
+INPUT ../output/figs/ir_diff/S014.jpg
+INPUT ../output/figs/ir_diff/S014.jpg
+INPUT ../output/figs/ir_diff/S014.jpg
+INPUT ../output/figs/ir_diff/S014.jpg
+INPUT ../output/figs/ir_diff/S014.jpg
+INPUT ../output/figs/ir_diff/S036.jpg
+INPUT ../output/figs/ir_diff/S036.jpg
+INPUT ../output/figs/ir_diff/S036.jpg
+INPUT ../output/figs/ir_diff/S036.jpg
+INPUT ../output/figs/ir_diff/S036.jpg
+INPUT ../output/figs/ir_diff/S039.jpg
+INPUT ../output/figs/ir_diff/S039.jpg
+INPUT ../output/figs/ir_diff/S039.jpg
+INPUT ../output/figs/ir_diff/S039.jpg
+INPUT ../output/figs/ir_diff/S039.jpg
+INPUT ../output/figs/ir_diff/S078.jpg
+INPUT ../output/figs/ir_diff/S078.jpg
+INPUT ../output/figs/ir_diff/S078.jpg
+INPUT ../output/figs/ir_diff/S078.jpg
+INPUT ../output/figs/ir_diff/S078.jpg
+INPUT ../output/figs/ir_diff/S099.jpg
+INPUT ../output/figs/ir_diff/S099.jpg
+INPUT ../output/figs/ir_diff/S099.jpg
+INPUT ../output/figs/ir_diff/S099.jpg
+INPUT ../output/figs/ir_diff/S099.jpg
+INPUT ../output/figs/mse/mse32.jpg
+INPUT ../output/figs/mse/mse32.jpg
+INPUT ../output/figs/mse/mse32.jpg
+INPUT ../output/figs/mse/mse32.jpg
+INPUT ../output/figs/mse/mse32.jpg
+INPUT ../output/figs/mse/mse37.jpg
+INPUT ../output/figs/mse/mse37.jpg
+INPUT ../output/figs/mse/mse37.jpg
+INPUT ../output/figs/mse/mse37.jpg
+INPUT ../output/figs/mse/mse37.jpg
+INPUT ../output/figs/mse/mse49.jpg
+INPUT ../output/figs/mse/mse49.jpg
+INPUT ../output/figs/mse/mse49.jpg
+INPUT ../output/figs/mse/mse49.jpg
+INPUT ../output/figs/mse/mse49.jpg
+INPUT ../output/figs/mse/mse54.jpg
+INPUT ../output/figs/mse/mse54.jpg
+INPUT ../output/figs/mse/mse54.jpg
+INPUT ../output/figs/mse/mse54.jpg
+INPUT ../output/figs/mse/mse54.jpg
 INPUT ./plos_latex_template.bbl
 INPUT plos_latex_template.bbl
 INPUT ./plos_latex_template.bbl
