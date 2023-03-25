@@ -300,21 +300,34 @@ The EDF files where opened using Python package \emph{pyedflib} and translated i
 The interval between each recorded value in this equipment is 6.25 ms, and the recordings on experiment 5 of subject S106 is 36.3 s. The duration is way smaller then the expected 2 minutes and the series is relatively small to the application os the \dmc method. Cutting all the subjects data to this duration implies in a great loss of data. The second smaller series of 15742 represents a total duration of 98.3875 s. The value was considered adequate to the \dmc method and the duration is about 82\% of the expected duration. The decision was to eliminate subject S106 from the experiment and to cut all time series at recording point 15742. resulting in a total number of 108 subjects with all 12 experiments per subject lasting 98.3875 s.
 
 
-The \dmc is part of a group of new statistical methods applied to long-range time series. The \(DFA\) method \cite{Peng1994} was proposed to identify self-affinity in of a signal. For long-memory series, the value of the \(F_{DFA}(n)\) usually grow with the time scale \(n\) denoting a power-law, described by the auto-correlation exponent \(\alpha\). This method was already used to evaluate the self-affinity of the same channels of this same dataset analyzed in this study, concluding xthat the amplitude of fluctuation tends to be larger in the frontal channels ``(\(F_{3}32\) and \(F_{6}37)\), if we compare with the channels located in the parietal region of the brain (\(P_{3}49\) and \(P_{6}54\))''\cite{Zebende2017}.
+The \dmc is part of a group of new statistical methods applied to long-range time series. The \(DFA\) method \cite{Peng1994, Buldyrev1950} was proposed to identify self-affinity in of a signal. For long-memory series, the value of the \(F_{DFA}(n)\) usually grow with the time scale \(n\) denoting a power-law, described by the auto-correlation exponent \(\alpha\). This method was already used to evaluate the self-affinity of the same channels of this same dataset analyzed in this study, concluding xthat the amplitude of fluctuation tends to be larger in the frontal channels ``(\(F_{3}32\) and \(F_{6}37)\), if we compare with the channels located in the parietal region of the brain (\(P_{3}49\) and \(P_{6}54\))''\cite{Zebende2017}. Other works also applied \(DFA\) to evaluate different aspects of EEG signals \cite{Mesquita2019} \cite{OliveiraFilho2019} \cite{OliveiraFilho2021}.
 
-The Detrended Cross-Correlation Coefficient,\(DCCA\) \cite{Podobnik2008}, expand the idea of the \(DFA\) to analyze the long-range cross-correlation for two non-stationary time series, but the quantification of the level of this correlation is calculated by the \pdcca \cite{Zebende2011}, proposed tree year later. Equation \ref{eq:pdcca} shows that the \pdcca of two time series, \(x_{a}\) and \(x_{b}\) is calculated using the \(DFA\) and the \(DCCA\) methods. 
+The Detrended Cross-Correlation Coefficient,\(DCCA\) \cite{Podobnik2008}, expand the idea of the \(DFA\) to analyze the long-range cross-correlation for two non-stationary time series, but the quantification of the level of this correlation is calculated by the \pdcca, proposed tree year later \cite{Zebende2011} and statistically tested in the same year \cite{PhysRevE.84.066118}. Equation \ref{eq:pdcca} shows that the \pdcca of two time series, \(x_{a}\) and \(x_{b}\) is calculated using the \(DFA\) and the \(DCCA\) methods. 
 
 \begin{equation}\label{eq:pdcca}
   {\rho}_{x_{a},x_{b}}(n) = \frac{F_{DCCA_{(xa,xb)}}^{2}(n)}{F_{DFA_{xa}}(n) F_{DFA_{xb}}(n)}
   \end{equation}
 
-To analise the dataset, this study uses the Detrended Multiple Cross-Correlation Coefficient (\dmc) \cite{Zebende2018}. This coefficient, is a generalization of the \pdcca, that determinates the correlation between two time serie. Considering a  
+To analise the dataset, this study uses the Detrended Multiple Cross-Correlation Coefficient (\dmc) \cite{Zebende2018}. This coefficient, is a generalization of the \pdcca, and calculates the correlation of one time serie \(Y\), defined dependent variable in relation of a number \(k\) of time series \([x_{1}, x_{2} \dots x_{k}]\), taken as independent variables. In equation \ref{eq:dmc}, \(\rho_{y,x_{i}}(n)\) is a vector containing the \pdcca of \(Y\) against each one of the dependent variables, and matrix \(\rho^{-1}(n)\) is the inverse matrix of the dependent variables in relation with each other, fora certain time scale.
 
 \begin{equation}\label{eq:dmc}
-  {DMC}_{x}^{2}  \equiv \rho_{y,x_{i}}(n)^{T} \rho^{-1}(n) \rho_{y,x_{i}}(n)
+  {DMC}_{x}^{2}  \equiv \rho_{y,x_{i}}(n)^{T} \times \rho^{-1}(n) \times \rho_{y,x_{i}}(n)
 \end{equation}
 
-\begin{equation}\label{eq:dmc_4x_y} 
+Matrix \(\rho(n)\) is presented in Equation \ref{eq:pmatrix}. The main diagonal is filled with ones (1) because the \pdcca correlation among a time serie and itself is always one. The \pdcca correlation is independent of the order of the two time series in the equation (commutative property). Since \(\rho_{x_{a},x_{b}}\) is equal to \(\rho_{x_{b},x_{a}}\), it's important to point that matrix \(\rho(n)\) is symmetric with respect to the main diagonal. 
+
+\begin{equation}\label{eq:pmatrix}
+  \rho^{-1}(n) = \left(\begin{matrix} 
+    1 & \rho_{x_{1},x_{2}}(n)                       &  \rho_{x_{1},x_{3}}(n) & \dots  &  \rho_{x_{1},x_{i}}(n) \\
+    \rho_{x_{2},x_{1}}(n) & 1                       &  \rho_{x_{2},x_{3}}(n) & \dots  &  \rho_{x_{2},x_{i}}(n) \\
+    \vdots                &  \vdots                 &  \vdots                & \dots  & \vdots \\
+    \rho_{x_{i},x_{1}}(n) & \rho_{x_{i},x_{2}}(n)   &  \rho_{x_{i},x_{3}}(n) & \dots  &  1 \\
+    \end{matrix}\right)^{-1}
+\end{equation}
+
+The calculation of the inverse matrix is the most time consuming step on the method. Replacing the equal values  (\(\rho_{x_{a},x_{b}} = \rho_{x_{b},x_{a}}\)) the  calculus of the \dmc with 3 independent variables \([x_{1}, x_{2}, x_{3}]\) against one dependent \(Y\) is presented in Equation \ref{eq:dmc_3x_y}.
+
+\begin{equation}\label{eq:dmc_3x_y} 
   \begin{split}
 DMC_{x}^{2} \quad = \quad & ( \rho^{2}_{X_{2},X_{3}} \times \rho^{2}_{Y,X_{1}}- \rho^{2}_{Y,X_{1}} + \rho^{2}_{X_{1},X_{3}}\times \rho^{2}_{Y,X_{2}}-\rho^{2}_{Y,X_{2}}+ \\
 & 2 \times \rho_{X_{1},X_{2}} \times \rho_{Y,X_{1}} \times \rho_{Y,X_{2}}   - 2 \times \rho_{X_{1},X_{3}} \times \rho_{X_{2},X_{3}} \times \rho_{Y,X_{1}} + \\
@@ -326,15 +339,7 @@ DMC_{x}^{2} \quad = \quad & ( \rho^{2}_{X_{2},X_{3}} \times \rho^{2}_{Y,X_{1}}- 
  \end{split}
 \end{equation}
 
-The \fdfa root mean square (rms) fluctuation function was already used to analyze a subset of the same dataset used here to evaluate   \cite{Mesquita2019} \cite{OliveiraFilho2019} \cite{OliveiraFilho2021}
 
-
-\cite{Peng1994, Buldyrev1950}, \cite{Podobnik2008}, \cite{Zebende2011}, \cite{PhysRevE.84.066118}, 
-
-% \begin{eqnarray}
-% \label{eq:schemeP}
-% 	\mathrm{P_Y} = \underbrace{H(Y_n) - H(Y_n|\mathbf{V}^{Y}_{n})}_{S_Y} + \underbrace{H(Y_n|\mathbf{V}^{Y}_{n})- H(Y_n|\mathbf{V}^{X,Y}_{n})}_{T_{X\rightarrow Y}},
-% \end{eqnarray}
 
 % Results and Discussion can be combined.
 \section*{Results}
