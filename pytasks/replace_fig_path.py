@@ -20,13 +20,8 @@ with open(tex_file_path, 'r', encoding='utf-8') as f:
             
                                       
             shutil.copy2(path1,path2.parent)
-            line = line.replace('../output', './output')
+
             #print(repalce_count, line)
 
-if repalce_count == 0:
-    for line in fileinput.input(tex_file_path, inplace=True):
-        if '../output' in line:
-            line = line.replace('../output', './output')
-        print(line)
 
 
