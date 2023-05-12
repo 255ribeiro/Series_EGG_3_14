@@ -1,0 +1,450 @@
+[
+    {
+        "Code": "Fc5.",
+        "Latex": "Fc_{5}",
+        "Prefix": "Fc",
+        "Simple_code": "Fc5",
+        "Underscore": "5"
+    },
+    {
+        "Code": "Fc3.",
+        "Latex": "Fc_{3}",
+        "Prefix": "Fc",
+        "Simple_code": "Fc3",
+        "Underscore": "3"
+    },
+    {
+        "Code": "Fc1.",
+        "Latex": "Fc_{1}",
+        "Prefix": "Fc",
+        "Simple_code": "Fc1",
+        "Underscore": "1"
+    },
+    {
+        "Code": "Fcz.",
+        "Latex": "Fc_{z}",
+        "Prefix": "Fc",
+        "Simple_code": "Fcz",
+        "Underscore": "z"
+    },
+    {
+        "Code": "Fc2.",
+        "Latex": "Fc_{2}",
+        "Prefix": "Fc",
+        "Simple_code": "Fc2",
+        "Underscore": "2"
+    },
+    {
+        "Code": "Fc4.",
+        "Latex": "Fc_{4}",
+        "Prefix": "Fc",
+        "Simple_code": "Fc4",
+        "Underscore": "4"
+    },
+    {
+        "Code": "Fc6.",
+        "Latex": "Fc_{6}",
+        "Prefix": "Fc",
+        "Simple_code": "Fc6",
+        "Underscore": "6"
+    },
+    {
+        "Code": "C5..",
+        "Latex": "C_{5}",
+        "Prefix": "C",
+        "Simple_code": "C5",
+        "Underscore": "5"
+    },
+    {
+        "Code": "C3..",
+        "Latex": "C_{3}",
+        "Prefix": "C",
+        "Simple_code": "C3",
+        "Underscore": "3"
+    },
+    {
+        "Code": "C1..",
+        "Latex": "C_{1}",
+        "Prefix": "C",
+        "Simple_code": "C1",
+        "Underscore": "1"
+    },
+    {
+        "Code": "Cz..",
+        "Latex": "C_{z}",
+        "Prefix": "C",
+        "Simple_code": "Cz",
+        "Underscore": "z"
+    },
+    {
+        "Code": "C2..",
+        "Latex": "C_{2}",
+        "Prefix": "C",
+        "Simple_code": "C2",
+        "Underscore": "2"
+    },
+    {
+        "Code": "C4..",
+        "Latex": "C_{4}",
+        "Prefix": "C",
+        "Simple_code": "C4",
+        "Underscore": "4"
+    },
+    {
+        "Code": "C6..",
+        "Latex": "C_{6}",
+        "Prefix": "C",
+        "Simple_code": "C6",
+        "Underscore": "6"
+    },
+    {
+        "Code": "Cp5.",
+        "Latex": "Cp_{5}",
+        "Prefix": "Cp",
+        "Simple_code": "Cp5",
+        "Underscore": "5"
+    },
+    {
+        "Code": "Cp3.",
+        "Latex": "Cp_{3}",
+        "Prefix": "Cp",
+        "Simple_code": "Cp3",
+        "Underscore": "3"
+    },
+    {
+        "Code": "Cp1.",
+        "Latex": "Cp_{1}",
+        "Prefix": "Cp",
+        "Simple_code": "Cp1",
+        "Underscore": "1"
+    },
+    {
+        "Code": "Cpz.",
+        "Latex": "Cp_{z}",
+        "Prefix": "Cp",
+        "Simple_code": "Cpz",
+        "Underscore": "z"
+    },
+    {
+        "Code": "Cp2.",
+        "Latex": "Cp_{2}",
+        "Prefix": "Cp",
+        "Simple_code": "Cp2",
+        "Underscore": "2"
+    },
+    {
+        "Code": "Cp4.",
+        "Latex": "Cp_{4}",
+        "Prefix": "Cp",
+        "Simple_code": "Cp4",
+        "Underscore": "4"
+    },
+    {
+        "Code": "Cp6.",
+        "Latex": "Cp_{6}",
+        "Prefix": "Cp",
+        "Simple_code": "Cp6",
+        "Underscore": "6"
+    },
+    {
+        "Code": "Fp1.",
+        "Latex": "F_{p1}",
+        "Prefix": "F",
+        "Simple_code": "Fp1",
+        "Underscore": "p1"
+    },
+    {
+        "Code": "Fpz.",
+        "Latex": "F_{pz}",
+        "Prefix": "F",
+        "Simple_code": "Fpz",
+        "Underscore": "pz"
+    },
+    {
+        "Code": "Fp2.",
+        "Latex": "F_{p2}",
+        "Prefix": "F",
+        "Simple_code": "Fp2",
+        "Underscore": "p2"
+    },
+    {
+        "Code": "Af7.",
+        "Latex": "Af_{7}",
+        "Prefix": "Af",
+        "Simple_code": "Af7",
+        "Underscore": "7"
+    },
+    {
+        "Code": "Af3.",
+        "Latex": "Af_{3}",
+        "Prefix": "Af",
+        "Simple_code": "Af3",
+        "Underscore": "3"
+    },
+    {
+        "Code": "Afz.",
+        "Latex": "Af_{z}",
+        "Prefix": "Af",
+        "Simple_code": "Afz",
+        "Underscore": "z"
+    },
+    {
+        "Code": "Af4.",
+        "Latex": "Af_{4}",
+        "Prefix": "Af",
+        "Simple_code": "Af4",
+        "Underscore": "4"
+    },
+    {
+        "Code": "Af8.",
+        "Latex": "Af_{8}",
+        "Prefix": "Af",
+        "Simple_code": "Af8",
+        "Underscore": "8"
+    },
+    {
+        "Code": "F7..",
+        "Latex": "F_{7}",
+        "Prefix": "F",
+        "Simple_code": "F7",
+        "Underscore": "7"
+    },
+    {
+        "Code": "F5..",
+        "Latex": "F_{5}",
+        "Prefix": "F",
+        "Simple_code": "F5",
+        "Underscore": "5"
+    },
+    {
+        "Code": "F3..",
+        "Latex": "F_{3}",
+        "Prefix": "F",
+        "Simple_code": "F3",
+        "Underscore": "3"
+    },
+    {
+        "Code": "F1..",
+        "Latex": "F_{1}",
+        "Prefix": "F",
+        "Simple_code": "F1",
+        "Underscore": "1"
+    },
+    {
+        "Code": "Fz..",
+        "Latex": "F_{z}",
+        "Prefix": "F",
+        "Simple_code": "Fz",
+        "Underscore": "z"
+    },
+    {
+        "Code": "F2..",
+        "Latex": "F_{2}",
+        "Prefix": "F",
+        "Simple_code": "F2",
+        "Underscore": "2"
+    },
+    {
+        "Code": "F4..",
+        "Latex": "F_{4}",
+        "Prefix": "F",
+        "Simple_code": "F4",
+        "Underscore": "4"
+    },
+    {
+        "Code": "F6..",
+        "Latex": "F_{6}",
+        "Prefix": "F",
+        "Simple_code": "F6",
+        "Underscore": "6"
+    },
+    {
+        "Code": "F8..",
+        "Latex": "F_{8}",
+        "Prefix": "F",
+        "Simple_code": "F8",
+        "Underscore": "8"
+    },
+    {
+        "Code": "Ft7.",
+        "Latex": "Ft_{7}",
+        "Prefix": "Ft",
+        "Simple_code": "Ft7",
+        "Underscore": "7"
+    },
+    {
+        "Code": "Ft8.",
+        "Latex": "Ft_{8}",
+        "Prefix": "Ft",
+        "Simple_code": "Ft8",
+        "Underscore": "8"
+    },
+    {
+        "Code": "T7..",
+        "Latex": "T_{7}",
+        "Prefix": "T",
+        "Simple_code": "T7",
+        "Underscore": "7"
+    },
+    {
+        "Code": "T8..",
+        "Latex": "T_{8}",
+        "Prefix": "T",
+        "Simple_code": "T8",
+        "Underscore": "8"
+    },
+    {
+        "Code": "T9..",
+        "Latex": "T_{9}",
+        "Prefix": "T",
+        "Simple_code": "T9",
+        "Underscore": "9"
+    },
+    {
+        "Code": "T10.",
+        "Latex": "T1_{0}",
+        "Prefix": "T1",
+        "Simple_code": "T10",
+        "Underscore": "0"
+    },
+    {
+        "Code": "Tp7.",
+        "Latex": "Tp_{7}",
+        "Prefix": "Tp",
+        "Simple_code": "Tp7",
+        "Underscore": "7"
+    },
+    {
+        "Code": "Tp8.",
+        "Latex": "Tp_{8}",
+        "Prefix": "Tp",
+        "Simple_code": "Tp8",
+        "Underscore": "8"
+    },
+    {
+        "Code": "P7..",
+        "Latex": "P_{7}",
+        "Prefix": "P",
+        "Simple_code": "P7",
+        "Underscore": "7"
+    },
+    {
+        "Code": "P5..",
+        "Latex": "P_{5}",
+        "Prefix": "P",
+        "Simple_code": "P5",
+        "Underscore": "5"
+    },
+    {
+        "Code": "P3..",
+        "Latex": "P_{3}",
+        "Prefix": "P",
+        "Simple_code": "P3",
+        "Underscore": "3"
+    },
+    {
+        "Code": "P1..",
+        "Latex": "P_{1}",
+        "Prefix": "P",
+        "Simple_code": "P1",
+        "Underscore": "1"
+    },
+    {
+        "Code": "Pz..",
+        "Latex": "P_{z}",
+        "Prefix": "P",
+        "Simple_code": "Pz",
+        "Underscore": "z"
+    },
+    {
+        "Code": "P2..",
+        "Latex": "P_{2}",
+        "Prefix": "P",
+        "Simple_code": "P2",
+        "Underscore": "2"
+    },
+    {
+        "Code": "P4..",
+        "Latex": "P_{4}",
+        "Prefix": "P",
+        "Simple_code": "P4",
+        "Underscore": "4"
+    },
+    {
+        "Code": "P6..",
+        "Latex": "P_{6}",
+        "Prefix": "P",
+        "Simple_code": "P6",
+        "Underscore": "6"
+    },
+    {
+        "Code": "P8..",
+        "Latex": "P_{8}",
+        "Prefix": "P",
+        "Simple_code": "P8",
+        "Underscore": "8"
+    },
+    {
+        "Code": "Po7.",
+        "Latex": "Po_{7}",
+        "Prefix": "Po",
+        "Simple_code": "Po7",
+        "Underscore": "7"
+    },
+    {
+        "Code": "Po3.",
+        "Latex": "Po_{3}",
+        "Prefix": "Po",
+        "Simple_code": "Po3",
+        "Underscore": "3"
+    },
+    {
+        "Code": "Poz.",
+        "Latex": "Po_{z}",
+        "Prefix": "Po",
+        "Simple_code": "Poz",
+        "Underscore": "z"
+    },
+    {
+        "Code": "Po4.",
+        "Latex": "Po_{4}",
+        "Prefix": "Po",
+        "Simple_code": "Po4",
+        "Underscore": "4"
+    },
+    {
+        "Code": "Po8.",
+        "Latex": "Po_{8}",
+        "Prefix": "Po",
+        "Simple_code": "Po8",
+        "Underscore": "8"
+    },
+    {
+        "Code": "O1..",
+        "Latex": "O_{1}",
+        "Prefix": "O",
+        "Simple_code": "O1",
+        "Underscore": "1"
+    },
+    {
+        "Code": "Oz..",
+        "Latex": "O_{z}",
+        "Prefix": "O",
+        "Simple_code": "Oz",
+        "Underscore": "z"
+    },
+    {
+        "Code": "O2..",
+        "Latex": "O_{2}",
+        "Prefix": "O",
+        "Simple_code": "O2",
+        "Underscore": "2"
+    },
+    {
+        "Code": "Iz..",
+        "Latex": "I_{z}",
+        "Prefix": "I",
+        "Simple_code": "Iz",
+        "Underscore": "z"
+    }
+]
