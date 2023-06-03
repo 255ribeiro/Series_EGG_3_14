@@ -47,6 +47,7 @@ Experiments
 
 (remove head and tail zeros)(https://stackoverflow.com/questions/52297315/remove-zero-value-head-and-tail-rows-from-dataframe)
 
-   
 
+### Test web site
 
+[site](./web_report/web_site/experiments_figs.html)
