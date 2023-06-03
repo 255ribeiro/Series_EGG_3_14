@@ -1,6 +1,5 @@
 from pathlib import Path
-import os
-
+import json
 from jinja2 import Environment, FileSystemLoader
 
 file_loader = FileSystemLoader('./web_report/templates')
@@ -36,12 +35,12 @@ for i in images:
     temp_dict ={}
     temp_dict["img_path"] = "../../" + i.__str__().replace('\\', '/')
     title_list = i.stem.split('_')
-    temp_dict["title"] = "Subject: {} - {}, {}".format(title_list[0], title_list[1], title_list[2])
+    temp_dict["title"] = "Subject code: {} - {}, {}".format(title_list[0], title_list[1], title_list[2])
 
     fig_dict_list.append(temp_dict)
 
 
-rendered = env.get_template("experiments.html").render( img_dict=fig_dict_list)
+rendered = env.get_template("experiments.html").render( img_dict=fig_dict_list, main_title = 'Experiments graphics')
 
 file_name = 'experiments_figs.html'
 
@@ -49,3 +48,127 @@ with open(f'./web_report/web_site/{file_name}', 'w') as f:
     f.write(rendered)
 
 
+# Tasks mean graphics
+
+fig_dict_list = []
+
+images = stats_fig_path.glob('*.jpg')
+
+for i in images:
+    temp_dict ={}
+    temp_dict["img_path"] = "../../" + i.__str__().replace('\\', '/')
+    temp_dict["title"] = "Subject code: {}".format(i.stem)
+
+    fig_dict_list.append(temp_dict)
+
+
+rendered = env.get_template("experiments.html").render( img_dict=fig_dict_list, main_title = 'Mean by task per subject')
+
+file_name = 'subject_mean.html'
+
+with open(f'./web_report/web_site/{file_name}', 'w') as f:
+    f.write(rendered)
+
+
+# Global statistics
+
+fig_dict_list = []
+
+images = global_fig_path.glob('*.jpg')
+
+for i in images:
+    if i.stem != "std":
+        temp_dict ={}
+        temp_dict["img_path"] = "../../" + i.__str__().replace('\\', '/')
+        temp_dict["title"] = "{}".format(i.stem.title())
+        if temp_dict["title"] == "Std Pop":
+            temp_dict["title"] = "Standard deviation"
+
+        fig_dict_list.append(temp_dict)
+
+
+rendered = env.get_template("experiments.html").render( img_dict=fig_dict_list, main_title = 'Global statistics')
+
+file_name = 'global_stats.html'
+
+with open(f'./web_report/web_site/{file_name}', 'w') as f:
+    f.write(rendered)
+
+
+# Difference
+
+fig_dict_list = []
+
+images = diff_fig_path.glob('*.jpg')
+
+for i in images:
+
+    temp_dict ={}
+    temp_dict["img_path"] = "../../" + i.__str__().replace('\\', '/')
+    temp_dict["title"] = "Subject code: {}".format(i.stem)
+
+    fig_dict_list.append(temp_dict)
+
+
+rendered = env.get_template("experiments.html").render( img_dict=fig_dict_list, main_title = 'Difference from the mean')
+
+file_name = 'diff_mean.html'
+
+with open(f'./web_report/web_site/{file_name}', 'w') as f:
+    f.write(rendered)
+
+#  Imaginary - real
+fig_dict_list = []
+
+images = ir_diff_fig_path.glob('*.jpg')
+
+for i in images:
+
+    temp_dict ={}
+    temp_dict["img_path"] = "../../" + i.__str__().replace('\\', '/')
+    temp_dict["title"] = "Subject code: {}".format(i.stem)
+
+    fig_dict_list.append(temp_dict)
+
+
+rendered = env.get_template("experiments.html").render( img_dict=fig_dict_list, main_title = 'Difference (imaginary - real)')
+
+file_name = 'diff_ir.html'
+
+with open(f'./web_report/web_site/{file_name}', 'w') as f:
+    f.write(rendered)
+
+
+# MSE
+
+cha_dict_file = info_path / 'channels_code_proc.json'
+with open(cha_dict_file) as f:
+   cha_dict_aux = json.load(f)
+f.close()
+cha_dict = {}
+for i in cha_dict_aux:
+   cha_dict[i['Simple_code']] =  {'Prefix': i['Prefix'], 'Underscore': i ['Underscore']  }
+
+
+
+fig_dict_list = []
+
+images = mse_fig_path.glob('*.jpg')
+
+for i in images:
+
+    temp_dict ={}
+    temp_dict["img_path"] = "../../" + i.__str__().replace('\\', '/')
+    temp_dict["title"] = "Mse: Channel {}<sub>{}</sub>".format(cha_dict[i.stem.split('_')[1]]['Prefix'], cha_dict[i.stem.split('_')[1]]['Underscore'])
+
+    fig_dict_list.append(temp_dict)
+
+
+rendered = env.get_template("experiments.html").render( img_dict=fig_dict_list, main_title = 'Mean Square error')
+
+file_name = 'mse.html'
+
+with open(f'./web_report/web_site/{file_name}', 'w') as f:
+    f.write(rendered)
+
+ 
