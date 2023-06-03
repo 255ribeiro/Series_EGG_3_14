@@ -19,6 +19,11 @@ stats_file_name = out_tables / 'stats_full_subj_protocol.pkl'
 
 save_fig_path = out_path / 'figs'
 exp_fig_path = save_fig_path / 'experiments'
+stats_fig_path = save_fig_path / 'subject_stats'
+global_fig_path = save_fig_path / 'global_stats'
+diff_fig_path = save_fig_path / 'diff'
+ir_diff_fig_path = save_fig_path / 'ir_diff'
+mse_fig_path = save_fig_path / 'mse'
 
 
 # Experimets graphics
@@ -29,7 +34,7 @@ images = exp_fig_path.glob('*.jpg')
 
 for i in images:
     temp_dict ={}
-    temp_dict["img_path"] = "../../" + str(i)
+    temp_dict["img_path"] = "../../" + i.__str__().replace('\\', '/')
     title_list = i.stem.split('_')
     temp_dict["title"] = "Subject: {} - {}, {}".format(title_list[0], title_list[1], title_list[2])
 
