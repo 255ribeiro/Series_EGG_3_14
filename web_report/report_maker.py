@@ -27,6 +27,9 @@ mse_fig_path = save_fig_path / 'mse'
 
 # Experimets graphics
 
+main_title = 'Experiments graphics'
+description = """Description"""
+
 fig_dict_list = []
 
 images = exp_fig_path.glob('*.jpg')
@@ -40,7 +43,7 @@ for i in images:
     fig_dict_list.append(temp_dict)
 
 
-rendered = env.get_template("experiments.html").render( img_dict=fig_dict_list, main_title = 'Experiments graphics')
+rendered = env.get_template("experiments.html").render( img_dict=fig_dict_list, main_title = main_title, description = description )
 
 file_name = 'experiments_figs.html'
 
@@ -50,6 +53,8 @@ with open(f'./web_report/web_site/{file_name}', 'w') as f:
 
 # Tasks mean graphics
 
+main_title = 'Mean by task per subject'
+description = """ """
 fig_dict_list = []
 
 images = stats_fig_path.glob('*.jpg')
@@ -62,7 +67,7 @@ for i in images:
     fig_dict_list.append(temp_dict)
 
 
-rendered = env.get_template("experiments.html").render( img_dict=fig_dict_list, main_title = 'Mean by task per subject')
+rendered = env.get_template("experiments.html").render( img_dict=fig_dict_list, main_title = main_title, description = description)
 
 file_name = 'subject_mean.html'
 
@@ -72,6 +77,8 @@ with open(f'./web_report/web_site/{file_name}', 'w') as f:
 
 # Global statistics
 
+main_title = 'Global statistics'
+description = """ """
 fig_dict_list = []
 
 images = global_fig_path.glob('*.jpg')
@@ -87,7 +94,7 @@ for i in images:
         fig_dict_list.append(temp_dict)
 
 
-rendered = env.get_template("experiments.html").render( img_dict=fig_dict_list, main_title = 'Global statistics')
+rendered = env.get_template("experiments.html").render( img_dict=fig_dict_list, main_title = main_title, description = description )
 
 file_name = 'global_stats.html'
 
@@ -97,6 +104,8 @@ with open(f'./web_report/web_site/{file_name}', 'w') as f:
 
 # Difference
 
+main_title = 'Difference from the mean'
+description = """ """
 fig_dict_list = []
 
 images = diff_fig_path.glob('*.jpg')
@@ -110,7 +119,7 @@ for i in images:
     fig_dict_list.append(temp_dict)
 
 
-rendered = env.get_template("experiments.html").render( img_dict=fig_dict_list, main_title = 'Difference from the mean')
+rendered = env.get_template("experiments.html").render( img_dict=fig_dict_list, main_title = main_title, description = description)
 
 file_name = 'diff_mean.html'
 
@@ -118,6 +127,8 @@ with open(f'./web_report/web_site/{file_name}', 'w') as f:
     f.write(rendered)
 
 #  Imaginary - real
+main_title = 'Difference (imaginary - real)'
+description = """ """
 fig_dict_list = []
 
 images = ir_diff_fig_path.glob('*.jpg')
@@ -131,7 +142,7 @@ for i in images:
     fig_dict_list.append(temp_dict)
 
 
-rendered = env.get_template("experiments.html").render( img_dict=fig_dict_list, main_title = 'Difference (imaginary - real)')
+rendered = env.get_template("experiments.html").render( img_dict=fig_dict_list, main_title = main_title, description = description)
 
 file_name = 'diff_ir.html'
 
@@ -141,17 +152,16 @@ with open(f'./web_report/web_site/{file_name}', 'w') as f:
 
 # MSE
 
+main_title = 'Mean square error'
+description = """ """
+fig_dict_list = []
+
 cha_dict_file = info_path / 'channels_code_proc.json'
 with open(cha_dict_file) as f:
    cha_dict_aux = json.load(f)
-f.close()
 cha_dict = {}
 for i in cha_dict_aux:
    cha_dict[i['Simple_code']] =  {'Prefix': i['Prefix'], 'Underscore': i ['Underscore']  }
-
-
-
-fig_dict_list = []
 
 images = mse_fig_path.glob('*.jpg')
 
@@ -164,11 +174,12 @@ for i in images:
     fig_dict_list.append(temp_dict)
 
 
-rendered = env.get_template("experiments.html").render( img_dict=fig_dict_list, main_title = 'Mean Square error')
+rendered = env.get_template("experiments.html").render( img_dict=fig_dict_list, main_title = main_title, description = description)
 
 file_name = 'mse.html'
 
 with open(f'./web_report/web_site/{file_name}', 'w') as f:
     f.write(rendered)
+#################
 
  
