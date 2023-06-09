@@ -24,7 +24,6 @@ diff_fig_path = save_fig_path / "diff"
 ir_diff_fig_path = save_fig_path / "ir_diff"
 mse_fig_path = save_fig_path / "mse"
 
-
 # Experimets graphics
 
 main_title = "Experiments graphics"
