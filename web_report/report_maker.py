@@ -32,9 +32,9 @@ file_name = "experiments_figs.html"
 
 ## video dict
 video_dict = {}
-video_dict['title'] = "Subject - 4 tasks mean video"
+video_dict['title'] = None
 video_dict['description'] = """ """
-video_dict['link'] = "../../output/videos/subjects_dmcx2.mp4"
+video_dict['link'] = ""
 
 ## fig_list
 fig_dict_list = []
@@ -104,7 +104,7 @@ file_name = "global_stats.html"
 
 ## video dict
 video_dict = {}
-video_dict['title'] = ""
+video_dict['title'] = None
 video_dict['description'] = """ """
 video_dict['link'] = ""
 
@@ -206,9 +206,9 @@ file_name = "mse.html"
 
 #video dict
 video_dict = {}
-video_dict['title'] = ""
+video_dict['title'] = None
 video_dict['description'] = """ """
-video_dict['link'] = ""
+video_dict['link'] = None
 
 cha_dict_file = info_path / "channels_code_proc.json"
 with open(cha_dict_file) as f:

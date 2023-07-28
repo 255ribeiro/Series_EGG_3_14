@@ -42,16 +42,16 @@
             </div>
     </header>
 
-    {% if video_link is not none %}
+    {% if video_dict.title is not none %}
     <div style="clear:both; margin-bottom: 10rem; margin-top: 5rem;">
-        <h2 style="text-align: center;">{{ video_title }}</h2>
-        <p style="text-align: center;">{{ video_description }}</p>
+        <h2 style="text-align: center;">Video: {{ video_dict.title }}</h2>
+        <p style="text-align: center;">{{ video_dict.description }}</p>
 
         <p style="text-align: center;">
         <div class="videoUiWrapper thumbnail ">
             <video width="100%" id="vdHotPress" controls>
                 <!-- set width to 100% and add controls for play and volume buttons-->
-                <source src="{{ video_link }}" type="video/mp4" />
+                <source src="{{ video_dict.link }}" type="video/mp4" />
                 Your browser does not support the video tag.
             </video>
         </div>
