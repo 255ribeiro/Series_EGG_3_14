@@ -27,9 +27,16 @@ mse_fig_path = save_fig_path / "mse"
 # Experimets graphics
 
 main_title = "Experiments graphics"
-description = """Description"""
+description = """ """
 file_name = "experiments_figs.html"
 
+## video dict
+video_dict = {}
+video_dict['title'] = "Subject - 4 tasks mean video"
+video_dict['description'] = """ """
+video_dict['link'] = "../../output/videos/subjects_dmcx2.mp4"
+
+## fig_list
 fig_dict_list = []
 
 images = exp_fig_path.glob("*.jpg")
@@ -46,7 +53,7 @@ for i in images:
 
 
 rendered = env.get_template("experiments.html").render(
-    img_dict=fig_dict_list, main_title=main_title, description=description
+    img_dict=fig_dict_list, main_title=main_title, description=description, video_dict=video_dict
 )
 
 
@@ -59,6 +66,14 @@ with open(f"./web_report/web_site/{file_name}", "w") as f:
 main_title = "Mean by task per subject"
 description = """ """
 file_name = "subject_mean.html"
+
+
+## video dict
+video_dict = {}
+video_dict['title'] = "Subject - 4 tasks mean video"
+video_dict['description'] = """ """
+video_dict['link'] = "../../output/videos/subjects_dmcx2.mp4"
+
 
 fig_dict_list = []
 
@@ -73,7 +88,7 @@ for i in images:
 
 
 rendered = env.get_template("experiments.html").render(
-    img_dict=fig_dict_list, main_title=main_title, description=description
+    img_dict=fig_dict_list, main_title=main_title, description=description, video_dict=video_dict
 )
 
 
@@ -86,6 +101,13 @@ with open(f"./web_report/web_site/{file_name}", "w") as f:
 main_title = "Global statistics"
 description = """ """
 file_name = "global_stats.html"
+
+## video dict
+video_dict = {}
+video_dict['title'] = ""
+video_dict['description'] = """ """
+video_dict['link'] = ""
+
 
 fig_dict_list = []
 
@@ -103,7 +125,7 @@ for i in images:
 
 
 rendered = env.get_template("experiments.html").render(
-    img_dict=fig_dict_list, main_title=main_title, description=description
+    img_dict=fig_dict_list, main_title=main_title, description=description, video_dict=video_dict
 )
 
 
@@ -116,6 +138,14 @@ with open(f"./web_report/web_site/{file_name}", "w") as f:
 main_title = "Difference from the mean"
 description = """ """
 file_name = "diff_mean.html"
+
+## video dict
+video_dict = {}
+video_dict['title'] = "Diference (subject - global mean)"
+video_dict['description'] = """ """
+video_dict['link'] = "../../output/videos/diff_global_mean.mp4"
+
+
 
 fig_dict_list = []
 
@@ -130,7 +160,7 @@ for i in images:
 
 
 rendered = env.get_template("experiments.html").render(
-    img_dict=fig_dict_list, main_title=main_title, description=description
+    img_dict=fig_dict_list, main_title=main_title, description=description, video_dict=video_dict
 )
 
 
@@ -141,6 +171,12 @@ with open(f"./web_report/web_site/{file_name}", "w") as f:
 main_title = "Difference (imaginary - real)"
 description = """ """
 file_name = "diff_ir.html"
+
+## video dict
+video_dict = {}
+video_dict['title'] = "Diference (Imaginary - Real)"
+video_dict['description'] = """ """
+video_dict['link'] = "../../output/videos/diff_imag_real.mp4"
 
 fig_dict_list = []
 
@@ -155,7 +191,7 @@ for i in images:
 
 
 rendered = env.get_template("experiments.html").render(
-    img_dict=fig_dict_list, main_title=main_title, description=description
+    img_dict=fig_dict_list, main_title=main_title, description=description, video_dict=video_dict
 )
 
 with open(f"./web_report/web_site/{file_name}", "w") as f:
@@ -167,6 +203,12 @@ main_title = "Mean square error"
 description = """ """
 fig_dict_list = []
 file_name = "mse.html"
+
+#video dict
+video_dict = {}
+video_dict['title'] = ""
+video_dict['description'] = """ """
+video_dict['link'] = ""
 
 cha_dict_file = info_path / "channels_code_proc.json"
 with open(cha_dict_file) as f:
@@ -189,7 +231,7 @@ for i in images:
 
 
 rendered = env.get_template("experiments.html").render(
-    img_dict=fig_dict_list, main_title=main_title, description=description
+    img_dict=fig_dict_list, main_title=main_title, description=description, video_dict=video_dict
 )
 
 with open(f"./web_report/web_site/{file_name}", "w") as f:
