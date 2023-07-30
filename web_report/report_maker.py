@@ -70,7 +70,7 @@ file_name = "subject_mean.html"
 
 ## video dict
 video_dict = {}
-video_dict['title'] = "Subject - 4 tasks mean video"
+video_dict['title'] = "Video resume of the graphics:\nSubject - 4 tasks mean video"
 video_dict['description'] = """ """
 video_dict['link'] = "../../output/videos/subjects_dmcx2.mp4"
 
@@ -141,7 +141,7 @@ file_name = "diff_mean.html"
 
 ## video dict
 video_dict = {}
-video_dict['title'] = "Diference (subject - global mean)"
+video_dict['title'] = "Video resume of the graphics:\nDiference (subject - global mean)"
 video_dict['description'] = """ """
 video_dict['link'] = "../../output/videos/diff_global_mean.mp4"
 
@@ -168,7 +168,7 @@ with open(f"./web_report/web_site/{file_name}", "w") as f:
     f.write(rendered)
 
 #  Imaginary - real
-main_title = "Difference (imaginary - real)"
+main_title = "Video resume of the graphics:\nDifference (imaginary - real)"
 description = """ """
 file_name = "diff_ir.html"
 
